@@ -6,7 +6,7 @@ Different ways to simulate the dynamics of Rydberg atoms arrays.
 1. [Tensor Networks](1.tensor-networks/)
 2. [Molecular Dynamics](2.molecular-dynamics/)
 3. [Quantum Monte Carlo](3.quantum-monte-carlo/)
-4. [Machine Learning](4.machine-learning/)
+4. [Computational Complexity](4.computational-complexity/)
 
 ## Inputs
 1. **Work on a project** under the chosen topic in the same space from 9:30AM-9:30PM.
