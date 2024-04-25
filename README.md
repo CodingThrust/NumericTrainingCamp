@@ -23,24 +23,18 @@ Note: each participant (including instructors) has 48 hour leave. Quitting is on
 
 ## Events
 **Talks**
-1. Zhigang Wu, SUSTech - Quantum simulation ([Poster](images/zhigangwu.png))
-   - Time: 11AM, Mar 08 (Friday)
-   - Location: W2-201
-
-2. Lin Li, Zhongshan University, - Experiments
-3. Madelyn Cain (Online), Harvard University - Quantum error correction
+1. Zhao-Long Gu, Cluster perturbation theory
+2. Nv-Sen Ma, Monte Carlo method
+3. Lei Wang if possible.
 
 **Mini-lectures**
-1. Jin-Guo Liu, [Rydberg atoms simulation methods](./0.intro/minilecture-simulation.md)
-2. Peng Chen, Experimental techniques for Rydberg atoms
+1. Jin-Guo Liu, [Tensor network methods](./0.intro/tenosr-network.md)
+2. Zhao-Long Gu, 
+3. Xi Dai's student maybe?
 
 ## Guide
 #### Report writing
-The report in the Markdown format should be submitted to this repository, under the folder of the corresponding topic. Please check [1.atom-loading/reports](1.atom-loading/reports/) folder for an example.
+The report in the Markdown format should be submitted to this repository, under the folder of the corresponding topic. Please check preview events (e.g. [this one](https://code.hkust-gz.edu.cn/jinguoliu/rydbergtrainingmaterials/-/tree/main/2.error-correction/reports?ref_type=heads) for examples.
 
-- [Guide: How to use AI to facilitate technical writing](toolkit.md)
+- [Guide: How to use AI to facilitate technical writing](0.intro/toolkit.md)
 - Technical support: Yusheng ZHAO, Yidai ZHANG
-
-
-#### Ideas and questions
-- Please [create an issue](git@code.hkust-gz.edu.cn:jinguoliu/rydbergtrainingmaterials.git) to keep your ideas and questions. We will discuss them in the meeting.
