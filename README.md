@@ -11,7 +11,7 @@ Different ways to simulate the dynamics of Rydberg atoms arrays.
 ## Inputs
 1. **Work on a project** under the chosen topic in the same space from 9:30AM-9:30PM.
 2. **Bidaily presentation and report** at 4:00 PM, each group has 15min to report the project progress in the meeting. Write a report and push it to this GitLab repo before 9:30PM. The report should be written in [Markdown](https://markdownguide.org/) format.
-3. A final report in the Markdown format, which will be deployed to the [training camp website](https://codingthrust.github.io/trainingcamp/)
+3. A final report in the Markdown format, which will be deployed to the [training camp website](https://codingthrust.github.io/trainingcamp/).
 
 Note: each participant (including instructors) has 48 hour leave. Quitting is only allowed at the first 3 days.
 
@@ -25,7 +25,8 @@ Note: each participant (including instructors) has 48 hour leave. Quitting is on
 **Talks**
 1. Zhao-Long Gu, Cluster perturbation theory
 2. Nv-Sen Ma, Monte Carlo method
-3. Lei Wang if possible.
+3. Xiu-Hao Deng, Quantum random walk
+4. Lei Wang if possible.
 
 **Mini-lectures**
 1. Jin-Guo Liu, [Tensor network methods](./0.intro/tenosr-network.md)
