@@ -76,6 +76,7 @@ You must go through the following guides before starting a topic
 - Git and Pull request
 - Using [Google Scholar](https://scholar.google.com/) to conduct a survey
 - VSCode + Markdown + Copilot for technical writing
+- Linear algebra based simulation of quantum systems
 
 
 ---
@@ -113,6 +114,10 @@ To follow a research direction, it is a good practice to follow the top groups i
 ---
 
 # Video watching: with questions in mind
+
+TODO:
+- A video about tensor networks
+- A video about VMC
 
 ---
 
