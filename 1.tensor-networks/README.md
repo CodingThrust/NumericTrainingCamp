@@ -2,16 +2,16 @@
 
 ## Contents
 1. Ground state finding, such as DMRG, CTMRG and VUMPO
-   1. DMRG code
-   2. CTMRG code
-   3. VUMPO code
-2. Finite temperature methods, such as CMPO
-   1. CMPO code
-3. Dynamics, such as TEBD
-   1. TEBD code
-   2. TDVP code
+   1. DMRG ([Julia](https://github.com/CodingThrust/SimpleTDVP.jl))
+   2. Corner transfer matrix renormalization group (CTMRG) ([Julia](https://github.com/under-Peter/TensorNetworkAD.jl))
+   3. variational uniform Matrix Product State algorithm (VUMPS) ([Julia](https://github.com/Jutho/TNSchool2018))
+2. Finite temperature methods
+   1. Continuous matrix product operator (CMPO) ([Python](https://github.com/TensorBFS/cMPO))
+3. Dynamics
+   1. Time-evolving block decimation (TEBD) ([Python](https://github.com/tenpy/tenpy))
+   2. Time-dependent variational principle (TDVP) ([Julia](https://github.com/Jutho/TNSchool2018))
 4. Classical tensor networks
-   1. TRG code
+   1. Tensor renormalization group (TRG) ([Julia](https://github.com/under-Peter/TensorNetworkAD.jl))
 
 ## People (suggested to follow)
 - [Jutho Haegeman](https://scholar.google.com/citations?hl=zh-CN&user=yfHe3OAAAAAJ) - Quantum Many Body Physics, Tensor Network Methods

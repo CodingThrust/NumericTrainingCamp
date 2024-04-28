@@ -38,24 +38,28 @@ height: 800
 
 ---
 
-Three models in the mind
+## Three models in the mind
 
 - NP-complete model: Hard-core lattice gas (Classical part of Rydberg atoms array)
-    ```math
+    $$
     H = - \sum_i Δ_i n_{r_i} + \sum_{i<j}V_{ij} n_{r_i} n_{r_j}
-    ```
+    $$
 - Stoquastic model: Transverse field Ising model (2-level model of Rydberg atoms array)
-    ```math
+    $$
     H = \sum_i \frac{\Omega_i}{2} \left(e^{i\phi_i}\ket{r_i}\bra{g_i} + e^{-i\phi_i}\ket{g_i}\bra{r_i}\right) - \sum_i Δ_i n_{r_i} + \sum_{i<j}V_{ij} n_{r_i} n_{r_j}
-    ```
-- QMA complete model: 3-level model of Rydberg atoms array
-    ```math
-    \begin{aligned} 
-        H = & \sum_i \frac{\Omega_i^{\mathrm{hf}}(t)}{2}\left(e^{i \phi_i^{\mathrm{hf}}(t)}|0_i\rangle\langle 1_i|+e^{-i \phi_i^{\mathrm{hf}}(t)}| 1_i\rangle\langle 0_i|\right)-\sum_i \Delta_i^{\mathrm{hf}}(t)|1_i\rangle\langle 1_i| \\ 
-        & +\sum_i \frac{\Omega_i^{\mathrm{r}}(t)}{2}\left(e^{i \phi_i^{\mathrm{r}}(t)}|1_i\rangle\langle r_i|+e^{-i \phi_i^{\mathrm{r}}(t)}| r_i\rangle\langle 1_i|\right)-\sum_i\left[\Delta_i^{\mathrm{hf}}(t)+\Delta_i^{\mathrm{r}}(t)\right]\left|r_i\right\rangle\left\langle r_i\right| \\ 
-        & +\sum_{i<j} V_{i j}\left|r_i\right\rangle\left\langle r_i|\otimes| r_j\right\rangle\left\langle r_j\right| .
-    \end{aligned}
-    ```
+    $$
+
+---
+
+## QMA complete model: 3-level model of Rydberg atoms array
+
+$$
+\begin{aligned} 
+    H = & \sum\_i \frac{\Omega\_i\^{\mathrm{hf}}(t)}{2}\left(e^{i \phi\_i^{\mathrm{hf}}(t)}|0\_i\rangle\langle 1\_i|+e\^{-i \phi\_i\^{\mathrm{hf}}(t)}| 1\_i\rangle\langle 0_i|\right)-\sum_i \Delta_i\^{\mathrm{hf}}(t)|1_i\rangle\langle 1_i| \\\\
+    & +\sum_i \frac{\Omega\_i^{\mathrm{r}}(t)}{2}\\left\(e\^{i \\phi\_i^{\mathrm{r}}(t)}|1\_i\rangle\langle r\_i|+e^{-i \phi\_i^{\mathrm{r}}(t)}| r\_i\rangle\langle 1\_i|\right\)-\sum_i\left\[\Delta\_i\^{\mathrm{hf}}(t)+\Delta\_i^{\mathrm{r}}(t)\right\]\left\|r\_i\right\rangle\left\langle r\_i\right\| \\\\
+    & +\sum_{i<j} V_{i j}\left|r_i\right\rangle\left\langle r_i|\otimes| r_j\right\rangle\left\langle r_j\right| .
+\end{aligned}
+$$
 
 ---
 
@@ -79,11 +83,9 @@ Repo: [https://code.hkust-gz.edu.cn/numericgangsters/numerictrainingcamp](https:
 
 You must go through the following guides before starting a topic
 
-- Git and Pull request
-- Using [Google Scholar](https://scholar.google.com/) to conduct a survey
-- VSCode + Markdown + Copilot for technical writing
-- Linear algebra based simulation of quantum systems
-
+- [Git and Pull request](https://book.jinguo-group.science/stable/chap1/git/)
+- [VSCode + Markdown + Copilot for technical writing](guides/report-writing.md)
+- [Using Google Scholar to conduct a survey](guides/conduct-survey.md)
 
 ---
 
@@ -91,6 +93,14 @@ You must go through the following guides before starting a topic
 
 - I will introduce many-body computing and the four topics.
 - Students decide the topic and the group before 2PM.
+
+---
+
+## Julia community
+
+- https://julialang.org/community/
+
+Note: I will go through several Julia Slack/Zulip channels, discourse
 
 ---
 

@@ -2,13 +2,12 @@
 
 ## Contents
 1. Problem reduction
-   1. [UnitDiskMapping.jl](https://github.com/QuEraComputing/UnitDiskMapping.jl)
+   1. Reducing problem to the independent set problem on KSG ([Julia](https://github.com/QuEraComputing/UnitDiskMapping.jl))
 2. Combinatorial optimization problems, such as spin glass and hard-core lattice gas[^Wang2024]
-   1. [GenericTensorNetworks.jl](https://github.com/QuEraComputing/GenericTensorNetworks.jl)
-3. Energy landscape of computational hard problems
-4. Dynamics of computing
+   1. Generic tensor networks ([Julia](https://github.com/QuEraComputing/GenericTensorNetworks.jl))
+3. Dynamics of computing
    1. Quantum annealing paper
-5. Quantum circuit simulation by tensor network contraction
+4. Quantum circuit simulation by tensor network contraction ([Julia](https://docs.yaoquantum.org/dev/man/yao2einsum.html))
 
 ## People (suggested to follow)
 - [Pan Zhang](https://scholar.google.com/citations?user=MFnbrRUAAAAJ&hl=zh-CN) - Statistical Physics, Machine Learning, Message Passing Algorithms, Tensor Networks, Quantum Computing
@@ -18,7 +17,8 @@
 ## Projects
 
 - Efficient simulation of noisy quantum circuit with tensor networks[^Gao2021][^Shao2023]
-- Compute 2D Fibonacci numbers[^Liu2023]
+- Improve the computation of 2D Fibonacci numbers[^Liu2023] or 3D Ising model
+- Clifford circuit simulation
 
 ## References
 [^Shao2023]: Shao, Y., Wei, F., Cheng, S., Liu, Z., 2023. Simulating Quantum Mean Values in Noisy Variational Quantum Algorithms: A Polynomial-Scale Approach. https://doi.org/10.48550/arXiv.2306.05804

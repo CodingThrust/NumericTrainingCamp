@@ -1,6 +1,7 @@
-# Toolkit
+# How to write a report
 ## Git and Terminal
-The related tutorials are in the book [Scientific Computing for Physicists](https://book.jinguo-group.science). The following are the links to the tutorials:
+
+You need to know how to use Git and a terminal to work on the project. The related tutorials are in the book [Scientific Computing for Physicists](https://book.jinguo-group.science). The following are the links to the tutorials:
 - [How to get a terminal](https://book.jinguo-group.science/stable/chap1/terminal/)
 - [How to use Git](https://book.jinguo-group.science/stable/chap1/git/)
 

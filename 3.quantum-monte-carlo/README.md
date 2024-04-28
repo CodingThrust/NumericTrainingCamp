@@ -3,7 +3,7 @@
 ## Contents
 1. Simulated annealing and quantum annealing
 2. Quantum Monte Carlo and variational quantum Monte Carlo
-   1. Carleo's code
+   1. Restricted Boltzmann Model (RBM) ([Python](https://github.com/GiggleLiu/marburg))
 3. Quantum Random Walk
 
 ## People (suggested to follow)

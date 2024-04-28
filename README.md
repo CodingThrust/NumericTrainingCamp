@@ -1,6 +1,8 @@
 # Scientific Computing Training Camp (Basic)
 
-Implement an algorithm, simulate a many-body system, and write a report.
+**Implement an algorithm**, simulate a many-body system, and write a report.
+
+> Talk is cheap. Show me the code. - Linus Torvalds
 
 ## Topics
 1. [Tensor Networks](1.tensor-networks/)
@@ -14,8 +16,6 @@ Implement an algorithm, simulate a many-body system, and write a report.
 3. A final report in the Markdown format, which will be deployed to the [training camp website](https://codingthrust.github.io/trainingcamp/).
 
 Note: each participant (including instructors) has 48 hour leave. Quitting is only allowed at the first 3 days.
-
-> He who learns must suffer. And even in our sleep pain that cannot forget falls drop by drop upon the heart, and in our own despair, against our will, comes wisdom to us by the awful grace of God. -- Aeschylus
 
 ## Expected output
 1. A final report in Markdown format.
