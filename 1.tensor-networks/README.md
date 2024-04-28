@@ -13,6 +13,14 @@
 4. Classical tensor networks
    1. TRG code
 
+## People
+- [Jutho Haegeman](https://scholar.google.com/citations?hl=zh-CN&user=yfHe3OAAAAAJ) - Quantum Many Body Physics, Tensor Network Methods
+- [Ignacio Cirac](https://scholar.google.com/citations?hl=zh-CN&user=gPGlTbgAAAAJ) - quantum optics, quantum information, many-body systems
+- [Frank Pollmann](https://scholar.google.com/citations?hl=zh-CN&user=hlf61gwAAAAJ) - Condensed Matter Theory
+- [Edwin Miles Stoudenmire](https://scholar.google.com/citations?hl=zh-CN&user=DLFxevAAAAAJ) - Condensed Matter Theory, Computational Physics, Tensor Network Methods, DMRG
+- [Shuo Yang](https://scholar.google.com/citations?hl=zh-CN&user=nemjDVIAAAAJ) - condensed matter theoryquantum physics, tensor networks
+- [Hiroshi Shinaoka](https://scholar.google.com/citations?hl=zh-CN&user=NT-EiksAAAAJ) - Condensed matter physics, computational physics, strongly correlated electrons
+
 ## Projects
 
 * Generalize TDVP from MPS to MPS$^2$[^Zaletel2019].

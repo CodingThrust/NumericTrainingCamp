@@ -6,6 +6,13 @@
    1. Carleo's code
 3. Quantum Random Walk
 
+## People
+
+- [Fakher Assaad](https://scholar.google.com/citations?hl=zh-CN&user=7JB0WRYAAAAJ) - Computational solid state physics
+- [Anders Sandvik](https://scholar.google.com/citations?hl=zh-CN&user=IPi533gAAAAJ) - Quantum many-body physic, sMonte Carlo, spin models, strongly-correlated electrons
+- [Zi-Yang Meng](https://scholar.google.com/citations?hl=zh-CN&user=_aq-qEAAAAAJ) - Condense matter physics
+- [You-Jin Deng](https://scholar.google.com/citations?hl=zh-CN&user=C_kzsgkAAAAJ) - Computational Statistical Physics
+
 ## Projects
 
 - Simulate classical spin dynamics to help understand quantum annealing[^Stella2005][^Wang2013][^Boixo2014].

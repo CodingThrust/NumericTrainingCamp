@@ -90,18 +90,7 @@ You must go through the following guides before starting a topic
 
 ## Top groups - suggested to follow
 
-To follow a research direction, it is a good practice to follow the top groups in the field on Google Scholar. Here are some top groups in the Rydberg field:
-
-- Lei Wang, Machine Learning & Physics
-- Jutho
-- Steven Johnson
-- Cirac
-- Frank Pollmann
-- Miles
-- Shuo Yang
-- Shinaoka
-- Fakher Asaad
-- Anders Sandvik
+To follow a research direction, it is a good practice to follow the top groups in the field on Google Scholar. Here are some top groups in the field of numeric methods:
 
 ---
 
