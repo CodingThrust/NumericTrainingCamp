@@ -1,6 +1,6 @@
 # Scientific Computing Training Camp (Basic)
 
-Different ways to simulate the dynamics of Rydberg atoms arrays.
+Implement an algorithm, simulate a many-body system, and write a report.
 
 ## Topics
 1. [Tensor Networks](1.tensor-networks/)

@@ -13,7 +13,7 @@
 4. Classical tensor networks
    1. TRG code
 
-## People
+## People (suggested to follow)
 - [Jutho Haegeman](https://scholar.google.com/citations?hl=zh-CN&user=yfHe3OAAAAAJ) - Quantum Many Body Physics, Tensor Network Methods
 - [Ignacio Cirac](https://scholar.google.com/citations?hl=zh-CN&user=gPGlTbgAAAAJ) - quantum optics, quantum information, many-body systems
 - [Frank Pollmann](https://scholar.google.com/citations?hl=zh-CN&user=hlf61gwAAAAJ) - Condensed Matter Theory

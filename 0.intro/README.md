@@ -32,6 +32,12 @@ height: 800
 
 ## Goal
 
+1. Implement an algorithm
+2. Simulate a many-body system
+3. Write a report
+
+---
+
 Three models in the mind
 
 - NP-complete model: Hard-core lattice gas (Classical part of Rydberg atoms array)
@@ -85,12 +91,6 @@ You must go through the following guides before starting a topic
 
 - I will introduce many-body computing and the four topics.
 - Students decide the topic and the group before 2PM.
-
----
-
-## Top groups - suggested to follow
-
-To follow a research direction, it is a good practice to follow the top groups in the field on Google Scholar. Here are some top groups in the field of numeric methods:
 
 ---
 

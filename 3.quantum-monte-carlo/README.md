@@ -6,7 +6,7 @@
    1. Carleo's code
 3. Quantum Random Walk
 
-## People
+## People (suggested to follow)
 
 - [Fakher Assaad](https://scholar.google.com/citations?hl=zh-CN&user=7JB0WRYAAAAJ) - Computational solid state physics
 - [Anders Sandvik](https://scholar.google.com/citations?hl=zh-CN&user=IPi533gAAAAJ) - Quantum many-body physic, sMonte Carlo, spin models, strongly-correlated electrons
