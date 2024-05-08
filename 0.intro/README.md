@@ -68,6 +68,7 @@ $$
 
 - Onsite: 9:30AM-9:30PM, location TBA.
 - Online: Zulip stream (less formal): `#NumericTrainingCamp`, for general discussion, sharing.
+- Discussion room: 4th/5th floor, maker space
 
 ---
 
@@ -101,14 +102,6 @@ You must go through the following guides before starting a topic
 - https://julialang.org/community/
 
 Note: I will go through several Julia Slack/Zulip channels, discourse
-
----
-
-## Main References
-
-- Tensor network org
-- age of MPS
-- Quantum Monte Carlo
 
 ---
 

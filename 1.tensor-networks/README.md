@@ -13,6 +13,12 @@
 4. Classical tensor networks
    1. Tensor renormalization group (TRG) ([Julia](https://github.com/under-Peter/TensorNetworkAD.jl))
 
+## Reading
+- A practical introduction to tensor networks: Matrix product states and projected entangled pair states[^Orus2014].
+- The density-matrix renormalization group in the age of matrix product states[^Schollwock2011].
+- Tangent-space methods for uniform matrix product states[^Vanderstraeten2019].
+- [Tensor Network website](https://tensornetwork.org/)
+
 ## People (suggested to follow)
 - [Jutho Haegeman](https://scholar.google.com/citations?hl=zh-CN&user=yfHe3OAAAAAJ) - Quantum Many Body Physics, Tensor Network Methods
 - [Ignacio Cirac](https://scholar.google.com/citations?hl=zh-CN&user=gPGlTbgAAAAJ) - quantum optics, quantum information, many-body systems
@@ -31,3 +37,6 @@
 ## References
 [^Zaletel2019]: Zaletel, M.P., Pollmann, F., 2019. Isometric Tensor Network States in Two Dimensions.
 [^Huang2018]: Huang, R.-Z., Liao, H.-J., Liu, Z.-Y., Xie, H.-D., Xie, Z.-Y., Zhao, H.-H., Chen, J., Xiang, T., 2018. A generalized Lanczos method for systematic optimization of tensor network states. Chinese Phys. B 27, 070501. https://doi.org/10.1088/1674-1056/27/7/070501
+[^Schollwock2011]: Schollwöck, U., 2011. Schollwöck, U. (2011). The density-matrix renormalization group in the age of matrix product states. Annals of Physics 326, 96–192. https://doi.org/10.1016/j.aop.2010.09.012
+[^Vanderstraeten2019]: Vanderstraeten, L., Haegeman, J., Verstraete, F., 2019. Tangent-space methods for uniform matrix product states. SciPost Physics Lecture Notes 7, 1–77. https://doi.org/10.21468/scipostphyslectnotes.7
+[^Orus2014]: Orús, R., 2014. A practical introduction to tensor networks: Matrix product states and projected entangled pair states. Annals of Physics 349, 117–158. https://doi.org/10.1016/j.aop.2014.06.013
