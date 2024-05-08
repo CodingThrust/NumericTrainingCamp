@@ -9,7 +9,7 @@
    1. Quantum annealing paper
 4. Quantum circuit simulation by tensor network contraction ([Julia](https://docs.yaoquantum.org/dev/man/yao2einsum.html))
 
-## People (suggested to follow)
+## People
 - [Pan Zhang](https://scholar.google.com/citations?user=MFnbrRUAAAAJ&hl=zh-CN) - Statistical Physics, Machine Learning, Message Passing Algorithms, Tensor Networks, Quantum Computing
 - [Hai-Jun Zhou](https://scholar.google.com/citations?user=j6fZctMAAAAJ&hl=zh-CN) - spin glass, optimization, polymer, complex networkgame
 - [Cristopher Moore](https://scholar.google.com/citations?user=p_837e0AAAAJ&hl=zh-CN&oi=sra) - complex networks, networks, quantum computing, phase transitions, quantum computation

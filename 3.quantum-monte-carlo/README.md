@@ -6,7 +6,7 @@
    1. Restricted Boltzmann Model (RBM) ([Python](https://github.com/GiggleLiu/marburg))
 3. Quantum Random Walk
 
-## People (suggested to follow)
+## People
 
 - [Fakher Assaad](https://scholar.google.com/citations?hl=zh-CN&user=7JB0WRYAAAAJ) - Computational solid state physics
 - [Anders Sandvik](https://scholar.google.com/citations?hl=zh-CN&user=IPi533gAAAAJ) - Quantum many-body physic, sMonte Carlo, spin models, strongly-correlated electrons
