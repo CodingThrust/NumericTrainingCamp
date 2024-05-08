@@ -9,9 +9,14 @@
    1. Quantum annealing paper
 4. Quantum circuit simulation by tensor network contraction ([Julia](https://docs.yaoquantum.org/dev/man/yao2einsum.html))
 
+
+## Reading
+- Book: The nature of computation[^Moore2011]
+- Review: A Tutorial on Formulating and Using QUBO Models[^Glover2019]
+
 ## People
 - [Pan Zhang](https://scholar.google.com/citations?user=MFnbrRUAAAAJ&hl=zh-CN) - Statistical Physics, Machine Learning, Message Passing Algorithms, Tensor Networks, Quantum Computing
-- [Hai-Jun Zhou](https://scholar.google.com/citations?user=j6fZctMAAAAJ&hl=zh-CN) - spin glass, optimization, polymer, complex networkgame
+- [Hai-Jun Zhou](https://scholar.google.com/citations?user=j6fZctMAAAAJ&hl=zh-CN) - spin glass, optimization, polymer, complex network game
 - [Cristopher Moore](https://scholar.google.com/citations?user=p_837e0AAAAJ&hl=zh-CN&oi=sra) - complex networks, networks, quantum computing, phase transitions, quantum computation
 
 ## Projects
@@ -27,3 +32,5 @@
 [^Markov2008]: Markov, I.L., Shi, Y., 2008. Simulating Quantum Computation by Contracting Tensor Networks. SIAM J. Comput. 38, 963–981. https://doi.org/10.1137/050644756
 [^Pan2022]: Pan, F., Chen, K., Zhang, P., 2022. Solving the Sampling Problem of the Sycamore Quantum Circuits. Phys. Rev. Lett. 129, 090502. https://doi.org/10.1103/PhysRevLett.129.090502
 [^Wang2024]: Wang, Y., Zhang, Y.E., Pan, F., Zhang, P., 2024. Tensor Network Message Passing. Phys. Rev. Lett. 132, 117401. https://doi.org/10.1103/PhysRevLett.132.117401
+[^Moore2011]: Moore, Cristopher, and Stephan Mertens. The nature of computation. OUP Oxford, 2011.
+[^Glover2019]: Glover, F., Kochenberger, G., Du, Y., 2019. A Tutorial on Formulating and Using QUBO Models.
