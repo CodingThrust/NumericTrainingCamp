@@ -7,7 +7,7 @@ During the 14 days, you will **implement an algorithm**, simulate a many-body sy
 
 ## Topics
 1. [Tensor Networks](1.tensor-networks/)
-2. [Machine Learning and Molecular Dynamics](2.molecular-dynamics/)
+2. [AI for Science](2.molecular-dynamics/)
 3. [Quantum Monte Carlo](3.quantum-monte-carlo/)
 4. [Computational Complexity](4.computational-complexity/)
 
