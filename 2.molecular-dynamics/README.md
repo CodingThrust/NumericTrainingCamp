@@ -1,4 +1,4 @@
-# Machine Learning and Molecular Dynamics
+# AI for Science
 
 ## Contents
 - [Computational Graph](([Python](https://github.com/GiggleLiu/marburg))) and optimal checkpointing ([Julia](https://github.com/GiggleLiu/TreeverseAlgorithm.jl/tree/master/test))
