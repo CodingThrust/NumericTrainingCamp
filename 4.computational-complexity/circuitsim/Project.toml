@@ -1,0 +1,4 @@
+[deps]
+Yao = "5872b779-8223-5990-8dd0-5abbb0748c8c"
+YaoPlots = "32cfe2d9-419e-45f2-8191-2267705d8dbc"
+YaoToEinsum = "9b173c7b-dc24-4dc5-a0e1-adab2f7b6ba9"

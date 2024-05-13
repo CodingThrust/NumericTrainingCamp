@@ -23,7 +23,8 @@
 
 - Efficient simulation of noisy quantum circuit with tensor networks[^Gao2021][^Shao2023]
 - Improve the computation of 2D Fibonacci numbers[^Liu2023] or 3D Ising model
-- Clifford circuit simulation
+- Clifford circuit simulation, with finite number of $T$ gates.
+- Landscape study of the independent set problem on 3-regular graphs and the patterns learnable from the landscape. i.e. develop a non-local search algorithm.
 
 ## References
 [^Shao2023]: Shao, Y., Wei, F., Cheng, S., Liu, Z., 2023. Simulating Quantum Mean Values in Noisy Variational Quantum Algorithms: A Polynomial-Scale Approach. https://doi.org/10.48550/arXiv.2306.05804

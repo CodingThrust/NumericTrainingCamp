@@ -1,13 +1,13 @@
 # Tensor Networks (Quantum many-body)
 
 ## Contents
-1. Ground state finding, such as DMRG, CTMRG and VUMPO
+1. Ground state finding
    1. DMRG ([Julia](https://github.com/CodingThrust/SimpleTDVP.jl))
    2. Corner transfer matrix renormalization group (CTMRG) ([Julia](https://github.com/under-Peter/TensorNetworkAD.jl), [Python](https://github.com/TensorBFS/dTRG))
    3. variational uniform Matrix Product State algorithm (VUMPS) ([Julia](https://github.com/Jutho/TNSchool2018))
 2. Finite temperature methods
    1. Continuous matrix product operator (CMPO) ([Python](https://github.com/TensorBFS/cMPO))
-3. Dynamics
+3. Time evolution
    1. Time-evolving block decimation (TEBD) ([Python](https://github.com/tenpy/tenpy))
    2. Time-dependent variational principle (TDVP) ([Julia](https://github.com/Jutho/TNSchool2018))
 4. Classical tensor networks
@@ -31,9 +31,9 @@
 ## Projects
 
 * Generalize TDVP from MPS to MPS$^2$[^Zaletel2019].
-* TDVP for open quantum systems.
+* Implement MPO and make it compact with deparameterization techniques[^Hubig2017].
 * The Lanczos + MPS approach for ground state finding[^Huang2018].
-* Renormalization of quantum states. (open question)
+* CTMRG for solving dynamical spin structure factors[^Xu2024].
 
 ## References
 [^Zaletel2019]: Zaletel, M.P., Pollmann, F., 2019. Isometric Tensor Network States in Two Dimensions.
@@ -42,3 +42,5 @@
 [^Vanderstraeten2019]: Vanderstraeten, L., Haegeman, J., Verstraete, F., 2019. Tangent-space methods for uniform matrix product states. SciPost Physics Lecture Notes 7, 1–77. https://doi.org/10.21468/scipostphyslectnotes.7
 [^Orus2014]: Orús, R., 2014. A practical introduction to tensor networks: Matrix product states and projected entangled pair states. Annals of Physics 349, 117–158. https://doi.org/10.1016/j.aop.2014.06.013
 [^Tao2023]: Xiang, Tao. Density Matrix and Tensor Network Renormalization. Cambridge University Press, 2023.
+[^Hubig2017]: Hubig, C., McCulloch, I.P., Schollwöck, U., 2017. Generic Construction of Efficient Matrix Product Operators. Phys. Rev. B 95, 035129. https://doi.org/10.1103/PhysRevB.95.035129
+[^Xu2024]: Xu, Y., Hasik, J., Ponsioen, B., Nevidomskyy, A.H., 2024. Simulating Spin Dynamics of Supersolid States in a Quantum Ising Magnet. https://doi.org/10.48550/arXiv.2405.05151

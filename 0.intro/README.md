@@ -63,6 +63,12 @@ $$
 
 ---
 
+## How many methods can we use to solve this model?
+- Exact diagonalization
+- Tensor network method
+- Monte carlo
+
+---
 
 ## How to communicate?
 
