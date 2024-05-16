@@ -103,6 +103,12 @@ You must go through the following guides before starting a topic
 
 ---
 
+## Many-body computing
+
+![](plots/fig1.svg)
+
+---
+
 ## Julia community
 
 - https://julialang.org/community/

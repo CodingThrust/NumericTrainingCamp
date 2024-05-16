@@ -34,6 +34,7 @@
 * Implement MPO and make it compact with deparameterization techniques[^Hubig2017].
 * The Lanczos + MPS approach for ground state finding[^Huang2018].
 * CTMRG for solving dynamical spin structure factors[^Xu2024].
+* Lower Bounds on Ground-State Energies of Local Hamiltonians through the Renormalization Group[^Kull2024].
 
 ## References
 [^Zaletel2019]: Zaletel, M.P., Pollmann, F., 2019. Isometric Tensor Network States in Two Dimensions.
@@ -44,3 +45,4 @@
 [^Tao2023]: Xiang, Tao. Density Matrix and Tensor Network Renormalization. Cambridge University Press, 2023.
 [^Hubig2017]: Hubig, C., McCulloch, I.P., Schollwöck, U., 2017. Generic Construction of Efficient Matrix Product Operators. Phys. Rev. B 95, 035129. https://doi.org/10.1103/PhysRevB.95.035129
 [^Xu2024]: Xu, Y., Hasik, J., Ponsioen, B., Nevidomskyy, A.H., 2024. Simulating Spin Dynamics of Supersolid States in a Quantum Ising Magnet. https://doi.org/10.48550/arXiv.2405.05151
+[^Kull2024]: Kull, I., Schuch, N., Dive, B., Navascués, M., 2024. Lower Bounds on Ground-State Energies of Local Hamiltonians through the Renormalization Group. Phys. Rev. X 14, 021008. https://doi.org/10.1103/PhysRevX.14.021008
