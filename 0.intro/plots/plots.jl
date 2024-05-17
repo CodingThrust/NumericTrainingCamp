@@ -10,7 +10,7 @@ function solvable_quantum()
         with_nodes(ns; filename=joinpath(@__DIR__, "fig1.svg")) do
             stroke(qm)
             fontsize(24)
-            text("Solvable Quantum Systems", offset(qm, (0, 150)))
+            text("Quantum Wave Function", offset(qm, (0, 150)))
             fontsize(16)
             stroke(arealaw)
             text("Area Law", offset(arealaw, (20, 0)))

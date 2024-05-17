@@ -109,6 +109,10 @@ You must go through the following guides before starting a topic
 
 ---
 
+## Area law
+
+---
+
 ## Julia community
 
 - https://julialang.org/community/
