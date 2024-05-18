@@ -46,3 +46,64 @@ function diagram_numeric_methods()
 end
 
 diagram_numeric_methods()
+
+using OMEinsum, GenericTensorNetworks
+
+function plot_net(code, tensors::Vector{<:Pair}, label_locs, fname)
+    config = GraphDisplayConfig(; edge_line_width=2.0, vertex_stroke_color="transparent", fontsize=14, fontface="Georgia")
+    filename = joinpath(@__DIR__, fname)
+    show_einsum(code;
+        tensor_locs=second.(tensors),
+        tensor_texts=first.(tensors),
+        label_locs,
+        config,
+        filename)
+end
+
+function plot_matmul()
+    plot_net(ein"ij,jk->ik",
+        ["A" => (0, 0), "B" => (100, 0)],
+        [(-50, 0), (50, 0), (150, 0)],
+        "matmul.svg")
+end
+plot_matmul()
+
+function plot_svd()
+    plot_net(ein"ij,j,jk->ik",
+        ["U" => (0, 0), "S" => (50, -50), "V" => (100, 0)],
+        [(-50, 0), (50, 0), (150, 0)],
+        "svd.svg")
+end
+plot_svd()
+
+function plot_traceperm()
+    plot_net(ein"ij,jk,ki->",
+        ["A" => (0, 0), "B" => (50, -50), "C" => (100, 0)],
+        [(50, 0), (25, -25), (75, -25)],
+        "traceperm.svg")
+end
+plot_traceperm()
+
+function plot_mps()
+    DX = 100
+    plot_net(ein"ia,ajb,bkc,cld,dm->ijklm",
+        ["A" => (0, 0), "B" => (DX, 0), "C" => (2DX, 0), "D" => (3DX, 0), "E" => (4DX, 0)],
+        [(0, -50), (0.5DX, 0), (DX, -50), (1.5DX, 0), (2DX, -50), (2.5DX, 0), (3DX, -50), (3.5DX, 0), (4DX, -50)],
+        "mps.svg")
+end
+
+plot_mps()
+
+function plot_inner()
+    DX = 100
+    plot_net(ein"ia,ajb,bkc,cld,dm,iα,αjβ,βkγ,γlδ,δm->",
+        ["A" => (0, 0), "B" => (DX, 0), "C" => (2DX, 0), "D" => (3DX, 0), "E" => (4DX, 0),
+        "A*" => (0, -100), "B*" => (DX, -100), "C*" => (2DX, -100), "D*" => (3DX, -100), "E*" => (4DX, -100)],
+        [
+            (0, -50), (0.5DX, 0), (DX, -50), (1.5DX, 0), (2DX, -50), (2.5DX, 0), (3DX, -50), (3.5DX, 0), (4DX, -50),
+            (0.5, -100), (1.5DX, -100), (2.5DX, -100), (3.5DX, -100),
+        ],
+        "inner.svg")
+end
+
+plot_inner()
