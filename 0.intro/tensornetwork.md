@@ -1,5 +1,17 @@
 # Tensor networks
 
+## Model: Heisenberg model
+The Hamiltonian of the $n$-site Heisenberg chain model is
+```math
+H = \sum_{i=1}^{n-1} \vec S_i \cdot \vec S_{i+1}
+```
+where $\vec S_i$ is the spin operator at site $i$.
+
+Properties:
+1. Translation invariance (periodic boundary condition or infinite chain)
+2. Symmetry: $SU(2)$ symmetry
+3. Ground state energy per site: -1.7726
+
 ## Mathematic foundation
 
 ### Diagrammatic representation
@@ -92,42 +104,66 @@ S = -\sum_i \lambda_i^2 \log_2 \lambda_i^2.
 
 ## Matrix Product States (MPS)
 ![](plots/mps.svg)
-1. A matrix product state is a tensor network representation of a quantum state.
-   1. Example: product state
-   2. Example: GHZ state
-   3. Example: AKLT state (Ref. [^Schollwock2010] P31)
-2. Normalization condition
-   ![](plots/inner.svg)
-3. Schmidt decomposition
-   1. Reduced density matrix
-   2. Fidelity
-   3. Mutual information
-4. Canonical form
-5. Compression
-6. Expectation values
-7. Time evolution: Time-evolving block decimation (TEBD)
-8. Variational optimization
-9.  DMRG algorithm
-10. Entanglement entropy and the area law
-11. Systems with area law
-12. Open quantum systems
-13. VUMPS
-14. TDVP
+### A matrix product state is a tensor network representation of a quantum state.
+1. Example: product state
+2. Example: GHZ state
+3. Example: AKLT state (Ref. [^Schollwock2010] P31)
+### Entanglement entropy and the area law
+1.  Schmidt decomposition
+2. Systems with area law, exponentially decaying entanglement entropy
+3. Compression: How does truncation error relate to the expectation value?
+### Fidelity & expectation value
+1. Norm of the state
+![](plots/inner.svg)
+2. Reduced density matrix
+### Canonical form and Vidal form
+### Time evolution
+1. Baker–Campbell–Hausdorff (BCH) formula and Trotter decomposition
+   The dual of the BCH formula is the Zassenhaus formula
+    ```math
+    e^{t(X+Y)}=e^{tX}~e^{tY}~e^{-{\frac {t^{2}}{2}}[X,Y]}~e^{{\frac {t^{3}}{6}}(2[Y,[X,Y]]+[X,[X,Y]])}~e^{{\frac {-t^{4}}{24}}([[[X,Y],X],X]+3[[[X,Y],X],Y]+3[[[X,Y],Y],Y])}\cdots
+    ```
+    When $dt$ is small, the first order Trotter decomposition is accurate
+    ```math
+    e^{dt(X+Y)} \approx e^{dtX} e^{dtY}
+    ```
+2. Time-evolving block decimation (TEBD)
+Consider the time evolution of a local Hamiltonian
+```math
+H = \sum_i h_{i,i+1}
+```
+where $h_{i, i+1}$ is a local Hamiltonian. The time evolution operator is
+```math
+U(dt) = e^{-iHdt} \approx \prod_i e^{-ih_{i,i+1} dt}
+```
+
+![](plots/tebd.svg)
+
+### Ground state finding
+1.  Variational optimization
+2.  DMRG algorithm
+### Infinite translation invariant system[^Vanderstraeten2018]
+1. Transfer matrix
+2. Infinite MPS
+3.  VUMPS
+4.  TDVP
+### Open quantum systems
 
 ## Two-dimensional Tensor Networks
 1. Projected entangled pair states (PEPS)
-2. MPS^2
-   1. Mose move
-3. CTMRG
-4. Fermionic system
-5. PEPS + VMC
+   1. The problem of contraction complexity
+   2. MPS^2 and Mose move
+2. Corner transfer matrix renormalization group (CTMRG)
+3. Fermionic system
+4. PEPS + VMC
 
 ## From Quantum Circuit to Tensor Networks
 1. Tensor network based simulation
 2. Special gates
-3. ZX-calculus
-4. Optimal contraction order and treewidth
-5. Entanglement propagation
+3. Expectation value
+4. ZX-calculus
+5. Optimal contraction order and treewidth
+6. Entanglement propagation
    1. Lieb Robinson bound, check entanglement entropy
 
 ## Classical Tensor Networks
@@ -143,4 +179,7 @@ S = -\sum_i \lambda_i^2 \log_2 \lambda_i^2.
    1. Discuss hardest instance complexity and average complexity
 6. From factoring to independent set problem
 
+## References
 [^Schollwock2010]: Schollwöck, U., 2011. Schollwöck, U. (2011). The density-matrix renormalization group in the age of matrix product states. Annals of Physics 326, 96–192. https://doi.org/10.1016/j.aop.2010.09.012
+[^Vanderstraeten2018]: Vanderstraeten, L., Haegeman, J., Verstraete, F., 2018. Tangent-space methods for uniform matrix product states.
+[^TensorsNet]: https://www.tensors.net/
