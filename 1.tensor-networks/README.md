@@ -30,11 +30,11 @@
 
 ## Projects
 
-* Generalize TDVP from MPS to MPS$^2$[^Zaletel2019].
-* Implement MPO and make it compact with deparameterization techniques[^Hubig2017].
-* The Lanczos + MPS approach for ground state finding[^Huang2018].
-* CTMRG for solving dynamical spin structure factors[^Xu2024].
-* Lower Bounds on Ground-State Energies of Local Hamiltonians through the Renormalization Group[^Kull2024].
+* Reproduce: Isometric Tensor Network States in Two Dimensions; Generalize TDVP from MPS to MPS$^2$[^Zaletel2019].
+* Reproduce: Continuous matrix product operator approach to finite temperature quantum states[^Tang2020].
+* Reproduce: Lower Bounds on Ground-State Energies of Local Hamiltonians through the Renormalization Group[^Kull2024].
+* Reproduce: Differentiable Programming Tensor Networks[^Liao2019].
+* Reproduce: Variational optimization algorithms for uniform matrix product states[^Zauner2017]
 
 ## References
 [^Zaletel2019]: Zaletel, M.P., Pollmann, F., 2019. Isometric Tensor Network States in Two Dimensions.
@@ -46,3 +46,6 @@
 [^Hubig2017]: Hubig, C., McCulloch, I.P., Schollwöck, U., 2017. Generic Construction of Efficient Matrix Product Operators. Phys. Rev. B 95, 035129. https://doi.org/10.1103/PhysRevB.95.035129
 [^Xu2024]: Xu, Y., Hasik, J., Ponsioen, B., Nevidomskyy, A.H., 2024. Simulating Spin Dynamics of Supersolid States in a Quantum Ising Magnet. https://doi.org/10.48550/arXiv.2405.05151
 [^Kull2024]: Kull, I., Schuch, N., Dive, B., Navascués, M., 2024. Lower Bounds on Ground-State Energies of Local Hamiltonians through the Renormalization Group. Phys. Rev. X 14, 021008. https://doi.org/10.1103/PhysRevX.14.021008
+[^Liao2019]: Liao, H., Liu, J., Wang, L., Xiang, T., 2019. Differentiable Programming Tensor Networks. Physical Review X 9, 31041. https://doi.org/10.1103/PhysRevX.9.031041
+[^Zauner2017]: Zauner-Stauber, V., Vanderstraeten, L., Fishman, M.T., Verstraete, F., Haegeman, J., 2017. Variational optimization algorithms for uniform matrix product states. npj Quantum Information 6, 1–32. https://doi.org/10.1103/PhysRevB.97.045145
+[^Tang2020]: Tang, W., Tu, H.-H., Wang, L., 2020. Continuous matrix product operator approach to finite temperature quantum states. https://doi.org/10.1103/PhysRevLett.125.170604

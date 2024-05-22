@@ -102,13 +102,13 @@
 <path d="M 1.367188 -11.476562 L 9.328125 -11.476562 L 9.328125 -10.070312 L 2.921875 -10.070312 L 2.921875 -6.585938 L 8.554688 -6.585938 L 8.554688 -5.21875 L 2.921875 -5.21875 L 2.921875 0 L 1.367188 0 Z M 1.367188 -11.476562 "/>
 </g>
 </g>
-<image id="source-248" x="0" y="0" width="0" height="0"/>
+<image id="source-33" x="0" y="0" width="0" height="0"/>
 <mask id="mask-0">
-<use xlink:href="#source-248"/>
+<use xlink:href="#source-33"/>
 </mask>
-<image id="source-322" x="0" y="0" width="0" height="0"/>
+<image id="source-45" x="0" y="0" width="0" height="0"/>
 <mask id="mask-1">
-<use xlink:href="#source-322"/>
+<use xlink:href="#source-45"/>
 </mask>
 </defs>
 <rect x="-52" y="-52" width="624" height="624" fill="rgb(100%, 100%, 100%)" fill-opacity="1"/>

@@ -54,7 +54,7 @@ function plot_net(code, tensors::Vector{<:Pair}, label_locs, fname)
     config = GraphDisplayConfig(; edge_line_width=2.0, vertex_stroke_color="transparent", fontsize=14, fontface="Georgia")
     filename = joinpath(@__DIR__, fname)
     show_einsum(code;
-        tensor_locs=second.(tensors),
+        tensor_locs=getfield.(tensors, :second),
         tensor_texts=first.(tensors),
         label_locs,
         config,

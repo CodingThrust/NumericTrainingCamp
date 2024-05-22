@@ -21,8 +21,9 @@
 
 ## Projects
 
-- Efficient simulation of noisy quantum circuit with tensor networks[^Gao2021][^Shao2023]
-- Improve the computation of 2D Fibonacci numbers[^Liu2023] or 3D Ising model
+- Reproduce: on of the papers about efficient simulation of noisy quantum circuit with tensor networks[^Gao2021][^Shao2023]
+- Better contraction order finding algorithms[^Kalachev2021].
+- Reducing the spin glass problem/independent set problem to the circuit SAT problem.
 - Clifford circuit simulation, with finite number of $T$ gates.
 - Landscape study of the independent set problem on 3-regular graphs and the patterns learnable from the landscape. i.e. develop a non-local search algorithm.
 
@@ -35,3 +36,4 @@
 [^Wang2024]: Wang, Y., Zhang, Y.E., Pan, F., Zhang, P., 2024. Tensor Network Message Passing. Phys. Rev. Lett. 132, 117401. https://doi.org/10.1103/PhysRevLett.132.117401
 [^Moore2011]: Moore, Cristopher, and Stephan Mertens. The nature of computation. OUP Oxford, 2011.
 [^Glover2019]: Glover, F., Kochenberger, G., Du, Y., 2019. A Tutorial on Formulating and Using QUBO Models.
+[^Kalachev2021]: Kalachev, G., Panteleev, P., Yung, M.-H., 2021. Recursive Multi-Tensor Contraction for XEB Verification of Quantum Circuits 1–9.
