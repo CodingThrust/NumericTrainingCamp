@@ -20,18 +20,19 @@ Note: each participant (including instructors) has 48 hour leave. Quitting is on
 
 ## Expected output
 1. A final report in Markdown format.
-2. Some research projects.
+2. A code repository.
+3. Some research projects.
 
 ## Events
+**Mini-lectures**
+1. Jin-Guo Liu, [Tensor network methods](./1.tensor-networks/tutorial/tensornetwork.md), May 27, 9:30AM
+2. Ze-Cheng Gan, PDE/ODE, May 29, 9:30AM (planned)
+
 **Talks**
 1. Yi-Jia Wang, Tensor network message passing[^Wang2024]
-2. Xiu-Hao Deng, Quantum random walk
-3. Zhao-Long Gu, 
-
-**Mini-lectures**
-1. Jin-Guo Liu, [Tensor network methods](./0.intro/tenosr-network.md)
-2. Lei Wang, TBD
-3. Ze-Cheng Gan, PDE/ODE
+3. Ji-Hao Chen, June 5, 11AM
+2. Xiu-Hao Deng, Juan 6, 2PM, Quantum random walk
+4. Zhao-Long Gu, June 8, 11AM
 
 ## Guide
 #### Report writing

@@ -63,7 +63,7 @@ $$
 
 ---
 
-## How many methods can we use to solve this model?
+## Numeric methods
 - Exact diagonalization
 - Tensor network method
 - Monte carlo
@@ -105,11 +105,7 @@ You must go through the following guides before starting a topic
 
 ## Many-body computing
 
-![](plots/fig1.svg)
-
----
-
-## Area law
+![](images/fig1.svg)
 
 ---
 
@@ -118,11 +114,6 @@ You must go through the following guides before starting a topic
 - https://julialang.org/community/
 
 Note: I will go through several Julia Slack/Zulip channels, discourse
-
----
-
-## Road Map
-
 
 ---
 
