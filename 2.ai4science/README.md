@@ -23,5 +23,4 @@
 [^Blondel2024]: Blondel, M., Roulet, V., 2024. The Elements of Differentiable Programming. https://doi.org/10.48550/arXiv.2403.14606
 [^Bishop2006]: Bishop, Christopher M., 2006. Pattern recognition and machine learning.
 [^Xie2022]: Xie, H., Zhang, L., Wang, L., 2022. Ab-initio study of interacting fermions at finite temperature with neural canonical transformation. JML 1, 38–59. https://doi.org/10.4208/jml.220113
-[^Jin2021]: S. Jin, L. Li, Z. Xu, and Y. Zhao, A random batch Ewald method for particle systems with Coulomb
-699 interactions, SIAM J. Sci. Comput., 43 (2021), pp. B937–B960.
+[^Jin2021]: S. Jin, L. Li, Z. Xu, and Y. Zhao, A random batch Ewald method for particle systems with Coulomb interactions, SIAM J. Sci. Comput., 43 (2021), pp. B937–B960.
