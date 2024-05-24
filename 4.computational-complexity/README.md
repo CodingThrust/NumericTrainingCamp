@@ -26,8 +26,8 @@
 - Reproduce: one of the papers about efficient simulation of noisy quantum circuit with tensor networks[^Gao2021][^Shao2023]
 - Better contraction order finding algorithms[^Kalachev2021][^Gray2020].
 - Tensor network based simulation of quantum circuits[^Pan2022] and the estimation of coherent error correction threshold.
-- Open question: Reducing the spin glass problem/independent set problem on grid to the circuit SAT problem[^Liu2023][^Nguyen2023][^Glover2019].
-- Open question: Computing 2D Fibonacci number[^Liu2023].
+- Open question: The $\sqrt{n}$ reduction from the independent set problem on grid to a general independent set problem[^Liu2023][^Nguyen2023][^Glover2019].
+- Open question: Computing 2D Fibonacci number[^Liu2023], 3D Ising model partition function.
 
 ## References
 [^Shao2023]: Shao, Y., Wei, F., Cheng, S., Liu, Z., 2023. Simulating Quantum Mean Values in Noisy Variational Quantum Algorithms: A Polynomial-Scale Approach. https://doi.org/10.48550/arXiv.2306.05804

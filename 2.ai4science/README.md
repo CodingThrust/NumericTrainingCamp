@@ -13,6 +13,7 @@
 - [Lei Wang](https://scholar.google.com/citations?hl=zh-CN&user=t4m9TCIAAAAJ) - computational physicscondensed matter physicsdeep learning
 
 ## Projects
+- Reproduce: Ab-initio study of interacting fermions at finite temperature with neural canonical transformation[^Xie2022].
 - Optimal checkpointing for non-uniform program (e.g. tensor network contraction)[^Griewank1992].
 
 ## References
@@ -20,3 +21,4 @@
 
 [^Blondel2024]: Blondel, M., Roulet, V., 2024. The Elements of Differentiable Programming. https://doi.org/10.48550/arXiv.2403.14606
 [^Bishop2006]: Bishop, Christopher M., 2006. Pattern recognition and machine learning.
+[^Xie2022]: Xie, H., Zhang, L., Wang, L., 2022. Ab-initio study of interacting fermions at finite temperature with neural canonical transformation. JML 1, 38–59. https://doi.org/10.4208/jml.220113
