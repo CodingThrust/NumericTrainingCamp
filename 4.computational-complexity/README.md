@@ -13,19 +13,21 @@
 ## Reading
 - Book: The nature of computation[^Moore2011]
 - Review: A Tutorial on Formulating and Using QUBO Models[^Glover2019]
+- Article: Quantum optimization with arbitrary connectivity using Rydberg atom arrays[^Nguyen2023]
 
 ## People
 - [Pan Zhang](https://scholar.google.com/citations?user=MFnbrRUAAAAJ&hl=zh-CN) - Statistical Physics, Machine Learning, Message Passing Algorithms, Tensor Networks, Quantum Computing
 - [Hai-Jun Zhou](https://scholar.google.com/citations?user=j6fZctMAAAAJ&hl=zh-CN) - spin glass, optimization, polymer, complex network game
 - [Cristopher Moore](https://scholar.google.com/citations?user=p_837e0AAAAJ&hl=zh-CN&oi=sra) - complex networks, networks, quantum computing, phase transitions, quantum computation
+- [Zhengfeng Ji](https://scholar.google.com/citations?hl=zh-CN&user=2uXdu7AAAAAJ) - quantum information and computation
 
 ## Projects
 
-- Reproduce: on of the papers about efficient simulation of noisy quantum circuit with tensor networks[^Gao2021][^Shao2023]
-- Better contraction order finding algorithms[^Kalachev2021].
-- Reducing the spin glass problem/independent set problem to the circuit SAT problem.
-- Clifford circuit simulation, with finite number of $T$ gates.
-- Landscape study of the independent set problem on 3-regular graphs and the patterns learnable from the landscape. i.e. develop a non-local search algorithm.
+- Reproduce: one of the papers about efficient simulation of noisy quantum circuit with tensor networks[^Gao2021][^Shao2023]
+- Better contraction order finding algorithms[^Kalachev2021][^Gray2020].
+- Tensor network based simulation of quantum circuits[^Pan2022] and the estimation of coherent error correction threshold.
+- Open question: Reducing the spin glass problem/independent set problem on grid to the circuit SAT problem[^Liu2023][^Nguyen2023][^Glover2019].
+- Open question: Computing 2D Fibonacci number[^Liu2023].
 
 ## References
 [^Shao2023]: Shao, Y., Wei, F., Cheng, S., Liu, Z., 2023. Simulating Quantum Mean Values in Noisy Variational Quantum Algorithms: A Polynomial-Scale Approach. https://doi.org/10.48550/arXiv.2306.05804
@@ -37,3 +39,5 @@
 [^Moore2011]: Moore, Cristopher, and Stephan Mertens. The nature of computation. OUP Oxford, 2011.
 [^Glover2019]: Glover, F., Kochenberger, G., Du, Y., 2019. A Tutorial on Formulating and Using QUBO Models.
 [^Kalachev2021]: Kalachev, G., Panteleev, P., Yung, M.-H., 2021. Recursive Multi-Tensor Contraction for XEB Verification of Quantum Circuits 1–9.
+[^Gray2020]: Gray, J., Kourtis, S., 2020. Hyper-optimized tensor network contraction.
+[^Nguyen2023]: Nguyen, M.-T., Liu, J.-G., Wurtz, J., Lukin, M.D., Wang, S.-T., Pichler, H., 2023. Quantum Optimization with Arbitrary Connectivity Using Rydberg Atom Arrays. PRX Quantum 4, 010316. https://doi.org/10.1103/PRXQuantum.4.010316

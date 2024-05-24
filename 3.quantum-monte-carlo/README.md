@@ -13,14 +13,14 @@
 ## People
 
 - [Fakher Assaad](https://scholar.google.com/citations?hl=zh-CN&user=7JB0WRYAAAAJ) - Computational solid state physics
-- [Anders Sandvik](https://scholar.google.com/citations?hl=zh-CN&user=IPi533gAAAAJ) - Quantum many-body physic, sMonte Carlo, spin models, strongly-correlated electrons
+- [Anders Sandvik](https://scholar.google.com/citations?hl=zh-CN&user=IPi533gAAAAJ) - Quantum many-body physics, Monte Carlo, spin models, strongly-correlated electrons
 - [Zi-Yang Meng](https://scholar.google.com/citations?hl=zh-CN&user=_aq-qEAAAAAJ) - Condense matter physics
 - [You-Jin Deng](https://scholar.google.com/citations?hl=zh-CN&user=C_kzsgkAAAAJ) - Computational Statistical Physics
 
 ## Projects
 
-- Simulate classical spin dynamics to help understand quantum annealing[^Stella2005][^Wang2013][^Boixo2014].
-- Simulate Rydberg atoms array with variational quantum Monte Carlo (VMC)[^Ruger2013][^Carleo2017].
+- Reproduce: Classical signature of quantum annealing.[^Stella2005][^Wang2013][^Boixo2014].
+- Reproduce: Solving the quantum many-body problem with artificial neural networks[^Ruger2013][^Carleo2017]..
 
 ## References
 [^Stella2005]: Stella, L., Santoro, G.E., Tosatti, E., 2005. Optimization by quantum annealing: Lessons from simple cases. Phys. Rev. B 72, 014303. https://doi.org/10.1103/PhysRevB.72.014303
