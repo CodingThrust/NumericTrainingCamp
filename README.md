@@ -27,12 +27,13 @@ Note: each participant (including instructors) has 48 hour leave. Quitting is on
 **Mini-lectures**
 1. Jin-Guo Liu, [Tensor network methods](./1.tensor-networks/tutorial/tensornetwork.md), May 27, 9:30AM
 2. Ze-Cheng Gan, PDE/ODE, May 29, 9:30AM (planned)
+3. Qi Zhang, May 30, 9:30AM, Flow model for computational physics
 
 **Talks**
 1. Yi-Jia Wang, Tensor network message passing[^Wang2024]
-3. Ji-Hao Chen, June 5, 11AM
-2. Xiu-Hao Deng, Juan 6, 2PM, Quantum random walk
-4. Zhao-Long Gu, June 8, 11AM
+3. Ji-Yao Chen, June 5, 11AM, Tensor networks, from ground states to excitations and back
+2. Xiu-Hao Deng, Juan 6, 2PM, Quantum random walk (planned)
+4. Zhao-Long Gu, June 8, 11AM, Correlation Effects and Their Interplay with Magnetic Fields and Band Topology in Twisted Transition Metal Dichalcogenides
 
 ## Guide
 #### Report writing
