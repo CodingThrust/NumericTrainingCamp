@@ -72,9 +72,9 @@ $$
 
 ## How to communicate?
 
-- Onsite: 9:30AM-9:30PM, location TBA.
-- Online: Zulip stream (less formal): `#NumericTrainingCamp`, for general discussion, sharing.
+Except the classroom, we have
 - Discussion room: 4th/5th floor, maker space
+- Online: Zulip stream (less formal): `#NumericTrainingCamp`
 
 ---
 
@@ -82,17 +82,28 @@ $$
 
 NOTE: I should go through the README.
 
-Repo: [https://code.hkust-gz.edu.cn/numericgangsters/numerictrainingcamp](https://code.hkust-gz.edu.cn/numericgangsters/numerictrainingcamp)
+Repo: [https://github.com/CodingThrust/NumericTrainingCamp](https://github.com/CodingThrust/NumericTrainingCamp)
 
 ---
 
 ## Preliminary
 
-You must go through the following guides before starting a topic
-
-- [Git and Pull request](https://book.jinguo-group.science/stable/chap1/git/)
+- [Git and pull request](https://book.jinguo-group.science/stable/chap1/git/).
 - [VSCode + Markdown + Copilot for technical writing](guides/report-writing.md)
 - [Using Google Scholar to conduct a survey](guides/conduct-survey.md)
+
+(Yi-Dai Zhang, Yu-Sheng Zhao can help you)
+
+---
+
+## How to program
+
+- You must use **git** to manage your code.
+- **Code** ([Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)), even if you do not understand the algorithm at all.
+- **Remove uncertainty**, you can get help from me, or the community, e.g. https://julialang.org/community/
+  - I want to ..., but I don't know how to start.
+  - Is there any good example/existing code about...
+  - Is it possible to help me review my code?
 
 ---
 
@@ -106,14 +117,6 @@ You must go through the following guides before starting a topic
 ## Many-body computing
 
 ![](images/fig1.svg)
-
----
-
-## Julia community
-
-- https://julialang.org/community/
-
-Note: I will go through several Julia Slack/Zulip channels, discourse
 
 ---
 
