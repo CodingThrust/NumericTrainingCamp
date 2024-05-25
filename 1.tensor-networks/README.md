@@ -25,12 +25,15 @@
 - [Ignacio Cirac](https://scholar.google.com/citations?hl=zh-CN&user=gPGlTbgAAAAJ) - quantum optics, quantum information, many-body systems
 - [Frank Pollmann](https://scholar.google.com/citations?hl=zh-CN&user=hlf61gwAAAAJ) - Condensed Matter Theory
 - [Edwin Miles Stoudenmire](https://scholar.google.com/citations?hl=zh-CN&user=DLFxevAAAAAJ) - Condensed Matter Theory, Computational Physics, Tensor Network Methods, DMRG
-- [Shuo Yang](https://scholar.google.com/citations?hl=zh-CN&user=nemjDVIAAAAJ) - condensed matter theoryquantum physics, tensor networks
+- [Shuo Yang](https://scholar.google.com/citations?hl=zh-CN&user=nemjDVIAAAAJ) - condensed matter theory, quantum physics, tensor networks
 - [Hiroshi Shinaoka](https://scholar.google.com/citations?hl=zh-CN&user=NT-EiksAAAAJ) - Condensed matter physics, computational physics, strongly correlated electrons
+- [Steven White](https://scholar.google.com/citations?user=tXebds4AAAAJ&hl=zh-CN&oi=ao), DMRG, condensed matter physics
+- [Frank Verstraete](https://scholar.google.com/citations?hl=zh-CN&user=wBrDPIEAAAAJ), Quantum Physics, Entanglement, Many-Body Physics, Quantum Computation, Tensor Networks
+- [Norbert Schuch](https://scholar.google.com/citations?user=ZHmDt48AAAAJ&hl=zh-CN), Quantum Many-Body Physics, Quantum Information Theory
 
 ## Projects
 
-* Reproduce: Isometric Tensor Network States in Two Dimensions; Generalize TDVP from MPS to MPS$^2$[^Zaletel2019].
+* Reproduce: Isometric Tensor Network States in Two Dimensions[^Zaletel2019].
 * Reproduce: Continuous matrix product operator approach to finite temperature quantum states[^Tang2020].
 * Reproduce: Lower Bounds on Ground-State Energies of Local Hamiltonians through the Renormalization Group[^Kull2024].
 * Reproduce: Differentiable Programming Tensor Networks[^Liao2019].

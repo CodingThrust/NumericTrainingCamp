@@ -1,7 +1,7 @@
 # Randomized algorithms
 
 ## Contents
-1. Simulated annealing and quantum annealing
+1. Simulated annealing and quantum annealing ([Julia: Simulated annealing](https://github.com/GiggleLiu/ScientificComputingDemos/tree/main/Spinglass) and [Julia: Quantum annealing](https://queracomputing.github.io/Bloqade.jl/dev/tutorials/2.adiabatic/main/))
 2. Quantum Monte Carlo and variational quantum Monte Carlo
    1. Restricted Boltzmann Model (RBM) ([Python](https://github.com/GiggleLiu/marburg))
 3. Quantum Random Walk
@@ -20,7 +20,7 @@
 ## Projects
 
 - Reproduce: Classical signature of quantum annealing.[^Stella2005][^Wang2013][^Boixo2014].
-- Reproduce: Solving the quantum many-body problem with artificial neural networks[^Ruger2013][^Carleo2017]..
+- Reproduce: Solving the quantum many-body problem with artificial neural networks[^Ruger2013][^Carleo2017].
 
 ## References
 [^Stella2005]: Stella, L., Santoro, G.E., Tosatti, E., 2005. Optimization by quantum annealing: Lessons from simple cases. Phys. Rev. B 72, 014303. https://doi.org/10.1103/PhysRevB.72.014303

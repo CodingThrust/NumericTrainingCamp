@@ -1,13 +1,11 @@
-# Computational Complexity
+# Computational Complexity and Quantum Computing
 
 ## Contents
 1. Problem reduction
    1. Reducing problem to the independent set problem on KSG ([Julia](https://github.com/QuEraComputing/UnitDiskMapping.jl))
 2. Combinatorial optimization problems, such as spin glass and hard-core lattice gas[^Wang2024]
    1. Generic tensor networks ([Julia](https://github.com/QuEraComputing/GenericTensorNetworks.jl))
-3. Dynamics of computing
-   1. Quantum annealing paper
-4. Quantum circuit simulation by tensor network contraction ([Julia](https://docs.yaoquantum.org/dev/man/yao2einsum.html))
+3. Quantum circuit simulation by tensor network contraction ([Julia](https://docs.yaoquantum.org/dev/man/yao2einsum.html))
 
 
 ## Reading
@@ -24,7 +22,7 @@
 ## Projects
 
 - Reproduce: one of the papers about efficient simulation of noisy quantum circuit with tensor networks[^Gao2021][^Shao2023]
-- Better contraction order finding algorithms[^Kalachev2021][^Gray2020].
+- Better tensor network contraction order finding algorithms[^Kalachev2021][^Gray2020].
 - Tensor network based simulation of quantum circuits[^Pan2022] and the estimation of coherent error correction threshold.
 - Open question: The $\sqrt{n}$ reduction from the independent set problem on grid to a general independent set problem[^Liu2023][^Nguyen2023][^Glover2019].
 - Open question: Computing 2D Fibonacci number[^Liu2023], 3D Ising model partition function.

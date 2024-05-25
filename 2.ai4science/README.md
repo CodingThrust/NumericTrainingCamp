@@ -2,6 +2,7 @@
 
 ## Contents
 - [Computational Graph](([Python](https://github.com/GiggleLiu/marburg))) and optimal checkpointing ([Julia](https://github.com/GiggleLiu/TreeverseAlgorithm.jl/tree/master/test))
+- Generative modeling
 
 ## Reading
 - Book: Pattern recognition and machine learning[^Bishop2006].
