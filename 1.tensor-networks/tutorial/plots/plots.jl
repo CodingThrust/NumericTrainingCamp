@@ -14,13 +14,11 @@ function solvable_quantum()
             text("Quantum Wave Function", offset(qm, (0, 150)))
             fontsize(16)
             stroke(arealaw)
-            text("Area Law", offset(arealaw, (20, 0)))
+            text("Weakly entangled", offset(arealaw, (20, 0)))
             stroke(small)
             text("Small", small)
             stroke(integrable)
             text("Integrable", integrable)
-            stroke(signfree)
-            text("Sign Problem Free", offset(signfree, (-70, 50)))
         end
     end
 end

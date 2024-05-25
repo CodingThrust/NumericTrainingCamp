@@ -116,9 +116,61 @@ The complexity classification is for the hardest problem in the class.
 
 ---
 
-## Exactly solvable models
+## Good starting point: Exactly solvable models
 
 ![](images/fig1.svg)
+
+---
+
+## Weakly entangled systems
+- Solvable by tensor networks.
+
+- Example: AKLT Hamiltonian
+    $$
+    H = \sum_{i} \mathbf{S}_i \cdot \mathbf{S}\_{i+1} + \frac{1}{3}(\mathbf{S}_i \cdot \mathbf{S}\_{i+1})^2
+    $$
+
+    Ref: Schollwock, 2010, Page 31
+
+---
+
+## Integrable models: Bethe ansatz
+E.g. translational invariant Heisenberg model
+
+![](images/bethe.png){width=50%}
+
+Ref: Murg, V., Korepin, V.E., Verstraete, F., 2012. Algebraic Bethe ansatz and tensor networks.
+
+---
+
+## Integrable models: Toric code model
+
+![](images/toriccode.png)
+
+$$
+H = -\sum_{s} A_s - \sum_{p} B_p
+$$
+
+---
+
+where $A_p$ and $B_s$ are plaquette and star operators:
+$$
+A_s = \prod_{j\in star} Z_j, \quad B_p = \prod_{j\in plaquette} X_j
+$$
+
+Ref: The Toric Code, Paul Herringer
+
+The ground state is representable by a Clifford circuit.
+
+---
+
+## Integrable models: Free fermion models
+
+- XY model
+  $$H = -\sum_{i} (X_i X_{i+1} + Y_i Y_{i+1})$$
+  Solvable by Jordan-Wigner transformation
+
+- Kitaev chain, Solvable by Majorana fermions
 
 ---
 

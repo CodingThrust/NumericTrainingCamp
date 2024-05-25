@@ -51,12 +51,83 @@ ein"ij,j,k->ik"(U, S, V)
 3. Algorithms to find the optimal contraction order, Please check: https://github.com/TensorBFS/OMEinsumContractionOrders.jl
 
 Example:
-<img src="2024-05-25-19-25-48.png" width="30%"/>
+<img src="2024-05-25-19-25-48.png" width="300"/>
 
 Q1: What are the mathematical expression and Julia code for the above diagram?
 Q2: Given the contraction tree below, what is the corresponding time complexity, space complexity and read-write complexity?
 
-<img src="2024-05-25-19-26-18.png" width="35%"/>
+<img src="2024-05-25-19-26-18.png" width="350"/>
+
+## Matrix Product States (MPS)
+
+A matrix product state is a tensor network representation of a quantum state.
+
+![](plots/mps.svg)
+
+Q: What is the rank of the above MPS?
+Q: Let the virtual bond dimension be $D$, what is the space complexity of the MPS?
+
+1. Example: product state
+2. Example: GHZ state
+3. Example: AKLT state (Ref. [^Schollwock2010] P31)
+
+### Entanglement
+1. Every multipartite quantum state has a Schmidt decomposition
+```math
+\ket{\psi} = \sum_{i} \lambda_i \ket{i}_A \ket{i}_B,\\
+\sum_{i} \lambda_i^2 = 1, \lambda_i \geq 0.
+```
+2. Schmidt decomposition can be related to singular value decomposition (SVD)
+3. The entanglement entropy is defined as
+```math
+S = -\sum_i \lambda_i^2 \log_2 \lambda_i^2.
+```
+4. Reduced density matrix - the tensor network representation
+```math
+\rho_A = \text{Tr}_B \ket{\psi}\bra{\psi}.
+```
+5. The eigenvalues of the reduced density matrix are the squares of the Schmidt coefficients.
+
+
+### Entanglement entropy and the area law
+1.  Schmidt decomposition
+2. Systems with area law, exponentially decaying entanglement entropy
+3. Compression: How does truncation error relate to the expectation value?
+### Fidelity & expectation value
+1. Norm of the state
+![](plots/inner.svg)
+2. Reduced density matrix
+### Canonical form and Vidal form
+### Time evolution
+1. Baker–Campbell–Hausdorff (BCH) formula and Trotter decomposition
+   The dual of the BCH formula is the Zassenhaus formula
+    ```math
+    e^{t(X+Y)}=e^{tX}~e^{tY}~e^{-{\frac {t^{2}}{2}}[X,Y]}~e^{{\frac {t^{3}}{6}}(2[Y,[X,Y]]+[X,[X,Y]])}~e^{{\frac {-t^{4}}{24}}([[[X,Y],X],X]+3[[[X,Y],X],Y]+3[[[X,Y],Y],Y])}\cdots
+    ```
+    When $dt$ is small, the first order Trotter decomposition is accurate
+    ```math
+    e^{dt(X+Y)} \approx e^{dtX} e^{dtY}
+    ```
+2. Time-evolving block decimation (TEBD)
+Consider the time evolution of a local Hamiltonian
+```math
+H = \sum_i h_{i,i+1}
+```
+where $h_{i, i+1}$ is a local Hamiltonian. The time evolution operator is
+```math
+U(dt) = e^{-iHdt} \approx \prod_i e^{-ih_{i,i+1} dt}
+```
+
+![](plots/tebd.svg)
+
+### Ground state finding
+1.  Variational optimization
+2.  DMRG algorithm
+### Infinite translation invariant system[^Vanderstraeten2018]
+1. Transfer matrix
+2. Infinite MPS
+3.  VUMPS
+4.  TDVP
 
 ### Automatic differentiation
 
@@ -97,68 +168,6 @@ Q: How about complex numbers?
 
 #### Example: 
 
-## Entanglement
-1. Every multipartite quantum state has a Schmidt decomposition
-```math
-\ket{\psi} = \sum_{i} \lambda_i \ket{i}_A \ket{i}_B,\\
-\sum_{i} \lambda_i^2 = 1, \lambda_i \geq 0.
-```
-2. Schmidt decomposition can be related to singular value decomposition (SVD)
-3. The entanglement entropy is defined as
-```math
-S = -\sum_i \lambda_i^2 \log_2 \lambda_i^2.
-```
-4. Reduced density matrix - the tensor network representation
-```math
-\rho_A = \text{Tr}_B \ket{\psi}\bra{\psi}.
-```
-5. The eigenvalues of the reduced density matrix are the squares of the Schmidt coefficients.
-
-## Matrix Product States (MPS)
-![](plots/mps.svg)
-### A matrix product state is a tensor network representation of a quantum state.
-1. Example: product state
-2. Example: GHZ state
-3. Example: AKLT state (Ref. [^Schollwock2010] P31)
-### Entanglement entropy and the area law
-1.  Schmidt decomposition
-2. Systems with area law, exponentially decaying entanglement entropy
-3. Compression: How does truncation error relate to the expectation value?
-### Fidelity & expectation value
-1. Norm of the state
-![](plots/inner.svg)
-2. Reduced density matrix
-### Canonical form and Vidal form
-### Time evolution
-1. Baker–Campbell–Hausdorff (BCH) formula and Trotter decomposition
-   The dual of the BCH formula is the Zassenhaus formula
-    ```math
-    e^{t(X+Y)}=e^{tX}~e^{tY}~e^{-{\frac {t^{2}}{2}}[X,Y]}~e^{{\frac {t^{3}}{6}}(2[Y,[X,Y]]+[X,[X,Y]])}~e^{{\frac {-t^{4}}{24}}([[[X,Y],X],X]+3[[[X,Y],X],Y]+3[[[X,Y],Y],Y])}\cdots
-    ```
-    When $dt$ is small, the first order Trotter decomposition is accurate
-    ```math
-    e^{dt(X+Y)} \approx e^{dtX} e^{dtY}
-    ```
-2. Time-evolving block decimation (TEBD)
-Consider the time evolution of a local Hamiltonian
-```math
-H = \sum_i h_{i,i+1}
-```
-where $h_{i, i+1}$ is a local Hamiltonian. The time evolution operator is
-```math
-U(dt) = e^{-iHdt} \approx \prod_i e^{-ih_{i,i+1} dt}
-```
-
-![](plots/tebd.svg)
-
-### Ground state finding
-1.  Variational optimization
-2.  DMRG algorithm
-### Infinite translation invariant system[^Vanderstraeten2018]
-1. Transfer matrix
-2. Infinite MPS
-3.  VUMPS
-4.  TDVP
 
 ### Open quantum systems
 
