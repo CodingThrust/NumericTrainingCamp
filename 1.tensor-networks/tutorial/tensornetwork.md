@@ -2,7 +2,19 @@
 
 ## Mathematic foundation
 
+### Definition
+A tensor network is a triple $\{\Lambda, \{T^{(i)}_{\sigma_i}\}, \sigma_0\}$[^Roa2024], where
+- $\Lambda$ is a set of indices,
+- $\{T^{(i)}_{\sigma_i}\}$ is a set of tensors and the associated indices, and
+- $\sigma_0$ is the output indices.
+
+The contraction of a tensor network is defined as
+```math
+{\rm con}(\Lambda, \{T^{(i)}_{\sigma_i}\}, \sigma_0) = \sum_{\Lambda\setminus\sigma_0} \prod_{i=1}^m T^{(i)}_{\sigma_i}
+```
+
 ### Diagrammatic representation
+We use a node to denote a tensor and a line to denote an index.
 #### Example 1: Trace Permutation
 Diagram:
 ![](plots/traceperm.svg)
@@ -30,14 +42,17 @@ ein"ij,j,k->ik"(U, S, V)
 ```
 
 #### Example 3: Fast Fourier Transform (FFT)
-   https://book.jinguo-group.science/stable/chap3/fft/
+- https://book.jinguo-group.science/stable/chap3/fft/
+- https://zhuanlan.zhihu.com/p/696638919
 
 ### Contraction order
-https://github.com/TensorBFS/OMEinsumContractionOrders.jl
-
-1. What is a good contraction order?
+1. What is a good contraction order? space complexity, time complexity and read-write complexity
 2. Space complexity and tree width
+![](2024-05-25-19-25-48.png)
+![](2024-05-25-19-26-18.png)
+
 3. Algorithms to find the optimal contraction order
+https://github.com/TensorBFS/OMEinsumContractionOrders.jl
 
 ### Automatic differentiation
 Adjoint:
@@ -173,3 +188,4 @@ U(dt) = e^{-iHdt} \approx \prod_i e^{-ih_{i,i+1} dt}
 [^Vanderstraeten2018]: Vanderstraeten, L., Haegeman, J., Verstraete, F., 2018. Tangent-space methods for uniform matrix product states.
 [^TensorsNet]: https://www.tensors.net/
 [^Liu2023]: Computing Solution Space Properties of Combinatorial Optimization Problems Via Generic Tensor Networks. SIAM J. Sci. Comput. 45, A1239–A1270. https://doi.org/10.1137/22M1501787
+[^Roa2024]: Roa-Villescas, M., Gao, X., Stuijk, S., Corporaal, H., Liu, J.-G., 2024. Probabilistic Inference in the Era of Tensor Networks and Differential Programming. https://doi.org/10.48550/arXiv.2405.14060
