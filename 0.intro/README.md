@@ -30,53 +30,75 @@ height: 800
 
 ---
 
-## Basic Rules
-
-NOTE: I should go through the README.
+## How it works
 
 Repo: [https://github.com/CodingThrust/NumericTrainingCamp](https://github.com/CodingThrust/NumericTrainingCamp)
 
 ---
 
-## Preliminary
+## Imagine: How can others help you?
 
-- [Git and pull request](https://book.jinguo-group.science/stable/chap1/git/).
-- [VSCode + Markdown + Copilot for technical writing](guides/report-writing.md)
-- [Using Google Scholar to conduct a survey](guides/conduct-survey.md)
+![](2024-05-25-14-44-06.png){width=30%}
 
-(Yi-Dai Zhang, Yu-Sheng Zhao can help you)
+---
+
+## Ask the right question
+
+![](images/2024-05-25-14-08-37.png)
+![](2024-05-25-14-47-02.png)
 
 ---
 
 ## Goals for today
 
-- I will introduce many-body computing and the projects.
-- Students decide the project to work on before 2PM. Students choosing the same project will form a group.
+- I will introduce many-body computational methods and the projects.
+- Students decide the project to work on before 4PM. Students choosing the same project will form a group.
+  - Projects are mainly about how to reproduce the results of a paper.
 
 ---
 
-## Many-body computing
+## Many-body systems
 
-![](images/fig1.svg)
+We start from a Hamiltonian $H$ and solve the following problems:
 
----
+1. Ground state
+2. Thermal equilibrium
+3. Time evolution
 
-## Three models in the mind
-
-Let $G = (V, E)$ be a graph.
-
-- NP-complete model (e.g. Rydberg atoms array without Rabi pulse):
-    $$
-    H = - \sum_{i \in V} Δ_i n_{r_i} + \sum_{(i, j) \in E}V_{ij} n_{r_i} n_{r_j}
-    $$
-- Stoquastic model: Transverse field Ising model (e.g. 2-level model of Rydberg atoms array)
-    $$
-    H = -J \sum_{(i, j) \in E} Z_i Z_j - h \sum_{j\in V} X_j
-    $$
+Or without a Hamiltonian, we simulate a quantum circuit.
 
 ---
 
-## QMA complete model: Heisenberg model and 3-level model of Rydberg atoms array
+## Complexity classification
+
+Cubitt, T., Montanaro, A., 2016. Complexity Classification of Local Hamiltonian Problems. SIAM J. Comput. 45, 268–316. https://doi.org/10.1137/140998287
+
+---
+
+## NP-complete model
+
+Let $G = (V, E)$ be a graph. The transverse field Ising mdoel (e.g. Rydberg atoms array without Rabi pulse) is NP-complete.
+$$
+H = - \sum_{i \in V} Δ_i n_{r_i} + \sum_{(i, j) \in E}V_{ij} n_{r_i} n_{r_j}
+$$
+
+*Unlikely to have a polynomial-time algorithm.*
+
+---
+
+## Stoquastic models
+Transverse field Ising model (e.g. 2-level model of Rydberg atoms array)
+$$
+H = -J \sum_{(i, j) \in E} Z_i Z_j - h \sum_{j\in V} X_j
+$$
+
+*Absence of sign problem in quantum Monte Carlo simulations.*
+
+---
+
+## QMA complete model
+
+Heisenberg model and 3-level model of Rydberg atoms array
 
 $$
 H = \sum_{(i, j) \in E} J_{ij}\mathbf{S}_i \cdot \mathbf{S}_j
@@ -84,44 +106,23 @@ $$
 
 Ref: [3-level model of Rydberg atoms array](https://queracomputing.github.io/Bloqade.jl/dev/3-level/)
 
----
-
-## Numeric methods
-- Exact Simulation
-- Tensor network method
-- Monte Carlo
-
+*Their low energy subspace can simulate any other quantum system.*
 
 ---
 
-# Video watching: with questions in mind
+## Notes
 
-TODO:
-- A video about tensor networks
-- A video about VMC
+The complexity classification is for the hardest problem in the class.
+
+---
+
+## Exactly solvable models
+
+![](images/fig1.svg)
 
 ---
 
 ## Continue
 
-- Reproduce a paper
-- Work on a new idea
-
----
-
-## Grouping
-
-Before 2PM, students decide the topic and the group.
-
-- 4 groups are formed.
-- 2-4 students per group.
-
----
-
-## About Projects: Pivot the Idea!
-The provided topics may not be perfect for the following reasons:
-- Has been done before.
-- Too hard or too easy.
-- Incorrect.
-
-We need to do survey, discuss, discuss, and discuss to pivot the idea.
+- Go through the provided topics (in the [README](../README.md)).
+- Before 2PM, you should decide the project to work on.
