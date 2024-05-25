@@ -38,38 +38,6 @@ height: 800
 
 ---
 
-## Three models in the mind
-
-- NP-complete model: Hard-core lattice gas (Classical part of Rydberg atoms array)
-    $$
-    H = - \sum_i Δ_i n_{r_i} + \sum_{i<j}V_{ij} n_{r_i} n_{r_j}
-    $$
-- Stoquastic model: Transverse field Ising model (2-level model of Rydberg atoms array)
-    $$
-    H = \sum_i \frac{\Omega_i}{2} \left(e^{i\phi_i}\ket{r_i}\bra{g_i} + e^{-i\phi_i}\ket{g_i}\bra{r_i}\right) - \sum_i Δ_i n_{r_i} + \sum_{i<j}V_{ij} n_{r_i} n_{r_j}
-    $$
-
----
-
-## QMA complete model: 3-level model of Rydberg atoms array
-
-$$
-\begin{aligned} 
-    H = & \sum\_i \frac{\Omega\_i\^{\mathrm{hf}}(t)}{2}\left(e^{i \phi\_i^{\mathrm{hf}}(t)}|0\_i\rangle\langle 1\_i|+e\^{-i \phi\_i\^{\mathrm{hf}}(t)}| 1\_i\rangle\langle 0_i|\right)-\sum_i \Delta_i\^{\mathrm{hf}}(t)|1_i\rangle\langle 1_i| \\\\
-    & +\sum_i \frac{\Omega\_i^{\mathrm{r}}(t)}{2}\\left\(e\^{i \\phi\_i^{\mathrm{r}}(t)}|1\_i\rangle\langle r\_i|+e^{-i \phi\_i^{\mathrm{r}}(t)}| r\_i\rangle\langle 1\_i|\right\)-\sum_i\left\[\Delta\_i\^{\mathrm{hf}}(t)+\Delta\_i^{\mathrm{r}}(t)\right\]\left\|r\_i\right\rangle\left\langle r\_i\right\| \\\\
-    & +\sum_{i<j} V_{i j}\left|r_i\right\rangle\left\langle r_i|\otimes| r_j\right\rangle\left\langle r_j\right| .
-\end{aligned}
-$$
-
----
-
-## Numeric methods
-- Exact diagonalization
-- Tensor network method
-- Monte carlo
-
----
-
 ## How to communicate?
 
 Except the classroom, we have
@@ -117,6 +85,39 @@ Repo: [https://github.com/CodingThrust/NumericTrainingCamp](https://github.com/C
 ## Many-body computing
 
 ![](images/fig1.svg)
+
+---
+
+## Three models in the mind
+
+Let $G = (V, E)$ be a graph.
+
+- NP-complete model (e.g. Rydberg atoms array without Rabi pulse):
+    $$
+    H = - \sum_{i \in V} Δ_i n_{r_i} + \sum_{(i, j) \in E}V_{ij} n_{r_i} n_{r_j}
+    $$
+- Stoquastic model: Transverse field Ising model (e.g. 2-level model of Rydberg atoms array)
+    $$
+    H = -J \sum_{(i, j) \in E} Z_i Z_j - h \sum_{j\in V} X_j
+    $$
+
+---
+
+## QMA complete model: Heisenberg model and 3-level model of Rydberg atoms array
+
+$$
+H = \sum_{(i, j) \in E} J_{ij}\mathbf{S}_i \cdot \mathbf{S}_j
+$$
+
+Ref: [3-level model of Rydberg atoms array](https://queracomputing.github.io/Bloqade.jl/dev/3-level/)
+
+---
+
+## Numeric methods
+- Exact Simulation
+- Tensor network method
+- Monte Carlo
+
 
 ---
 

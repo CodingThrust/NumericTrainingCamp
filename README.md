@@ -13,21 +13,21 @@ During the 14 days, you will **implement an algorithm**, simulate a many-body sy
 
 ## Inputs
 1. **Work on a project** under the chosen topic, in the meeting room, from 9:30AM-9:30PM.
-2. **Bidaily presentation and report** at 4:00 PM, each group has 15min to report the project progress in the meeting. Write a report and push it to this GitLab repo before 9:30PM. The report should be written in [Markdown](https://markdownguide.org/) format.
+2. **Bidaily presentation and report** at 4:00 PM, each group has 15min to report the project progress in the meeting. Write a report and submit it to this GitHub repo before 9:30PM. The report should be written in [Markdown](https://markdownguide.org/) format.
 3. A final report in the Markdown format, which will be deployed to the [training camp website](https://codingthrust.github.io/trainingcamp/).
 
 Note: each participant (including instructors) has 48 hour leave. Quitting is only allowed at the first 3 days.
 
 ## Expected output
-1. A final report in Markdown format.
+1. A final report in the Markdown format.
 2. A code repository.
-3. Some research projects.
+3. Some research projects (not guaranteed).
 
 ## Events
 **Mini-lectures**
 1. Jin-Guo Liu, [Tensor network methods](./1.tensor-networks/tutorial/tensornetwork.md), May 27, 9:30AM
 2. Ze-Cheng Gan, PDE/ODE, May 29, 9:30AM (planned)
-3. Qi Zhang, May 30, 9:30AM, Flow model for computational physics
+3. Qi Zhang, May 30, 9:30AM, Flow model for computational physics[^ml4p]
 
 **Talks**
 1. Yi-Jia Wang, Tensor network message passing[^Wang2024]
@@ -42,4 +42,6 @@ The report in the Markdown format should be submitted to this repository, under 
 - [Guide: How to use AI to facilitate technical writing](0.intro/toolkit.md)
 - Technical support: Yusheng ZHAO, Yidai ZHANG
 
+## References
 [^Wang2024]: Wang, Y., Zhang, Y.E., Pan, F., Zhang, P., 2024. Tensor Network Message Passing. Phys. Rev. Lett. 132, 117401. https://doi.org/10.1103/PhysRevLett.132.117401
+[^ml4p]: Machine learning for physicists, https://github.com/wangleiphy/ml4p
