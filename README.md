@@ -31,16 +31,30 @@ Note: each participant (including instructors) has 48 hour leave. Quitting is on
 
 **Talks**
 1. Yi-Jia Wang, Tensor network message passing[^Wang2024]
-3. Ji-Yao Chen, June 5, 11AM, Tensor networks, from ground states to excitations and back
+3. Ji-Yao Chen, June 5, 11AM, W4-202, Tensor networks, from ground states to excitations and back
 2. Xiu-Hao Deng, Juan 6, 2PM, Quantum random walk (planned)
 4. Zhao-Long Gu, June 8, 11AM, Correlation Effects and Their Interplay with Magnetic Fields and Band Topology in Twisted Transition Metal Dichalcogenides
 
 ## Guide
-#### Report writing
+#### Conduct a survey
+You can use [Google Scholar](https://scholar.google.com/) to search for the researchers you are interested in, and follow them to get updated with the latest research. You can use [Zotero](https://www.zotero.org/) to manage your references. For more details, please refer to [this guide](0.intro/guides/conduct-survey.md).
+#### Technical writing
 The report in the Markdown format should be submitted to this repository, under the folder of the corresponding topic. Please check preview events (e.g. [this one](https://code.hkust-gz.edu.cn/jinguoliu/rydbergtrainingmaterials/-/tree/main/2.error-correction/reports?ref_type=heads)) for references.
 
 - [Guide: How to use AI to facilitate technical writing](0.intro/toolkit.md)
-- Technical support: Yusheng ZHAO, Yidai ZHANG
+
+#### How to program?
+
+- You must use **git** to manage your code.
+- **Code** ([Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)), even if you do not understand the algorithm at all.
+- **Remove uncertainty**, you can get help from me, or the community, e.g. https://julialang.org/community/
+  - I want to ..., but I don't know how to start.
+  - Is there any good example/existing code about...
+  - Is it possible to help me review my code? Ref: [Blog: The Best Way to Do a Code Review on GitHub](https://linearb.io/blog/code-review-on-github)
+
+#### Technical support
+- Yusheng ZHAO
+- Yidai ZHANG
 
 ## References
 [^Wang2024]: Wang, Y., Zhang, Y.E., Pan, F., Zhang, P., 2024. Tensor Network Message Passing. Phys. Rev. Lett. 132, 117401. https://doi.org/10.1103/PhysRevLett.132.117401

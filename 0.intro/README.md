@@ -64,17 +64,6 @@ Repo: [https://github.com/CodingThrust/NumericTrainingCamp](https://github.com/C
 
 ---
 
-## How to program
-
-- You must use **git** to manage your code.
-- **Code** ([Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)), even if you do not understand the algorithm at all.
-- **Remove uncertainty**, you can get help from me, or the community, e.g. https://julialang.org/community/
-  - I want to ..., but I don't know how to start.
-  - Is there any good example/existing code about...
-  - Is it possible to help me review my code?
-
----
-
 ## Goals for today
 
 - I will introduce many-body computing and the four topics.
