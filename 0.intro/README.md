@@ -38,14 +38,14 @@ Repo: [https://github.com/CodingThrust/NumericTrainingCamp](https://github.com/C
 
 ## Imagine: How can others help you?
 
-![](2024-05-25-14-44-06.png){width=30%}
+![](images/2024-05-25-14-44-06.png){width=30%}
 
 ---
 
 ## Ask the right question
 
 ![](images/2024-05-25-14-08-37.png)
-![](2024-05-25-14-47-02.png)
+![](images/2024-05-25-14-47-02.png)
 
 ---
 
