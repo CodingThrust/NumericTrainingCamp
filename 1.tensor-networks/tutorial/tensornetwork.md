@@ -46,13 +46,17 @@ ein"ij,j,k->ik"(U, S, V)
 - https://zhuanlan.zhihu.com/p/696638919
 
 ### Contraction order
-1. What is a good contraction order? space complexity, time complexity and read-write complexity
-2. Space complexity and tree width
-![](2024-05-25-19-25-48.png)
-![](2024-05-25-19-26-18.png)
+1. A good contraction order reduces: space complexity, time complexity and read-write complexity
+2. The space complexity of a contraction order is related to tree width in graph theory
+3. Algorithms to find the optimal contraction order, Please check: https://github.com/TensorBFS/OMEinsumContractionOrders.jl
 
-3. Algorithms to find the optimal contraction order
-https://github.com/TensorBFS/OMEinsumContractionOrders.jl
+Example:
+<img src="2024-05-25-19-25-48.png" width="30%"/>
+
+Q1: What are the mathematical expression and Julia code for the above diagram?
+Q2: Given the contraction tree below, what is the corresponding time complexity, space complexity and read-write complexity?
+
+<img src="2024-05-25-19-26-18.png" width="35%"/>
 
 ### Automatic differentiation
 Adjoint:
