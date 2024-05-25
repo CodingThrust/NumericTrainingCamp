@@ -59,6 +59,9 @@ Q2: Given the contraction tree below, what is the corresponding time complexity,
 <img src="2024-05-25-19-26-18.png" width="35%"/>
 
 ### Automatic differentiation
+
+*Differentiating a tensor in a tensor network contraction is equivalent to removing the tensor.*
+
 Adjoint:
 ```math
 \overline{x} = \frac{\partial \mathcal{L}}{\partial x}
@@ -91,6 +94,8 @@ We have
 Q: How about complex numbers?
 - Rule based AD: derive the rules using the Wirtinger calculus
 - Source-to-source AD: same as real numbers
+
+#### Example: 
 
 ## Entanglement
 1. Every multipartite quantum state has a Schmidt decomposition
