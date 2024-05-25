@@ -15,7 +15,7 @@
 - Review: A Tutorial on Formulating and Using QUBO Models[^Glover2019]
 - Article: Quantum optimization with arbitrary connectivity using Rydberg atom arrays[^Nguyen2023]
 
-## People
+## Researchers in the field
 - [Pan Zhang](https://scholar.google.com/citations?user=MFnbrRUAAAAJ&hl=zh-CN) - Statistical Physics, Machine Learning, Message Passing Algorithms, Tensor Networks, Quantum Computing
 - [Hai-Jun Zhou](https://scholar.google.com/citations?user=j6fZctMAAAAJ&hl=zh-CN) - spin glass, optimization, polymer, complex network game
 - [Cristopher Moore](https://scholar.google.com/citations?user=p_837e0AAAAJ&hl=zh-CN&oi=sra) - complex networks, networks, quantum computing, phase transitions, quantum computation

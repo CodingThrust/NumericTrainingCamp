@@ -52,8 +52,8 @@ Repo: [https://github.com/CodingThrust/NumericTrainingCamp](https://github.com/C
 ## Goals for today
 
 - I will introduce many-body computational methods and the projects.
-- Students decide the project to work on before 4PM. Students choosing the same project will form a group.
-  - Projects are mainly about how to reproduce the results of a paper.
+- Students will choose a project to work on.
+- Students set up the environment.
 
 ---
 
@@ -125,4 +125,7 @@ The complexity classification is for the hardest problem in the class.
 ## Continue
 
 - Go through the provided topics (in the [README](../README.md)).
-- Before 2PM, you should decide the project to work on.
+- Students decide which project to work on before 2PM. Students choosing the same project will form a group.
+  - Projects are mainly about how to reproduce the results of a paper.
+  - Feel free to add new projects to the pool.
+- Goal: Each group submit a link to a GitHub repository with the team name, project name and the group members' names.

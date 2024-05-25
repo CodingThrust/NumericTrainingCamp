@@ -1,17 +1,5 @@
 # Tensor networks
 
-## Model: Heisenberg model
-The Hamiltonian of the $n$-site Heisenberg chain model is
-```math
-H = \sum_{i=1}^{n-1} \vec S_i \cdot \vec S_{i+1}
-```
-where $\vec S_i$ is the spin operator at site $i$.
-
-Properties:
-1. Translation invariance (periodic boundary condition or infinite chain)
-2. Symmetry: $SU(2)$ symmetry
-3. Ground state energy per site: -1.7726
-
 ## Mathematic foundation
 
 ### Diagrammatic representation

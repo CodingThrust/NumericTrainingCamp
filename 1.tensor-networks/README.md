@@ -20,7 +20,7 @@
 - Website: [Tensor Network website](https://tensornetwork.org/).
 - Book: Density Matrix and Tensor Network Renormalization[^Tao2023].
 
-## People
+## Researchers in the field
 - [Jutho Haegeman](https://scholar.google.com/citations?hl=zh-CN&user=yfHe3OAAAAAJ) - Quantum Many Body Physics, Tensor Network Methods
 - [Ignacio Cirac](https://scholar.google.com/citations?hl=zh-CN&user=gPGlTbgAAAAJ) - quantum optics, quantum information, many-body systems
 - [Frank Pollmann](https://scholar.google.com/citations?hl=zh-CN&user=hlf61gwAAAAJ) - Condensed Matter Theory
