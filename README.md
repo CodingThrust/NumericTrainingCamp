@@ -45,12 +45,18 @@ The report in the Markdown format should be submitted to this repository, under 
 
 #### How to program?
 
-- You must use **git** to manage your code.
+- You must use **git** to manage your code, and use **pull requests** to submit your code. Please refer to [this guide](https://book.jinguo-group.science/stable/chap1/git/) for more details.
 - **Code** ([Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)), even if you do not understand the algorithm at all.
 - **Remove uncertainty**, you can get help from me, or the community, e.g. https://julialang.org/community/
   - I want to ..., but I don't know how to start.
   - Is there any good example/existing code about...
   - Is it possible to help me review my code? Ref: [Blog: The Best Way to Do a Code Review on GitHub](https://linearb.io/blog/code-review-on-github)
+
+#### Logistics
+
+- Spaces that free to use: W1 4F-6F, maker space.
+- We use [Zulip@HKUST-GZ](http://zulip.hkust-gz.edu.cn/) stream: `#NumericTrainingCamp` for (formal) online communication.
+- We will have a WeChat group for informal communication (planned).
 
 #### Technical support
 - Yusheng ZHAO

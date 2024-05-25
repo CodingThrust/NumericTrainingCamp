@@ -30,22 +30,6 @@ height: 800
 
 ---
 
-## Goal
-
-1. Implement an algorithm
-2. Simulate a many-body system
-3. Write a report
-
----
-
-## How to communicate?
-
-Except the classroom, we have
-- Discussion room: 4th/5th floor, maker space
-- Online: Zulip stream (less formal): `#NumericTrainingCamp`
-
----
-
 ## Basic Rules
 
 NOTE: I should go through the README.
@@ -66,8 +50,8 @@ Repo: [https://github.com/CodingThrust/NumericTrainingCamp](https://github.com/C
 
 ## Goals for today
 
-- I will introduce many-body computing and the four topics.
-- Students decide the topic and the group before 2PM.
+- I will introduce many-body computing and the projects.
+- Students decide the project to work on before 2PM. Students choosing the same project will form a group.
 
 ---
 
