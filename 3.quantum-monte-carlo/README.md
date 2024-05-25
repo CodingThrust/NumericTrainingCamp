@@ -10,7 +10,7 @@
 - Book: Quantum Monte Carlo Methods[^Gubernatis2016]
 - Thesis: Implementation of the Variational Monte Carlo method for the Hubbard model[^Ruger2013]
 
-## People
+## Researchers in the field
 
 - [Fakher Assaad](https://scholar.google.com/citations?hl=zh-CN&user=7JB0WRYAAAAJ) - Computational solid state physics
 - [Anders Sandvik](https://scholar.google.com/citations?hl=zh-CN&user=IPi533gAAAAJ) - Quantum many-body physics, Monte Carlo, spin models, strongly-correlated electrons

@@ -30,121 +30,102 @@ height: 800
 
 ---
 
-## Goal
+## How it works
 
-1. Implement an algorithm
-2. Simulate a many-body system
-3. Write a report
+Repo: [https://github.com/CodingThrust/NumericTrainingCamp](https://github.com/CodingThrust/NumericTrainingCamp)
 
 ---
 
-## Three models in the mind
+## Imagine: How can others help you?
 
-- NP-complete model: Hard-core lattice gas (Classical part of Rydberg atoms array)
-    $$
-    H = - \sum_i Δ_i n_{r_i} + \sum_{i<j}V_{ij} n_{r_i} n_{r_j}
-    $$
-- Stoquastic model: Transverse field Ising model (2-level model of Rydberg atoms array)
-    $$
-    H = \sum_i \frac{\Omega_i}{2} \left(e^{i\phi_i}\ket{r_i}\bra{g_i} + e^{-i\phi_i}\ket{g_i}\bra{r_i}\right) - \sum_i Δ_i n_{r_i} + \sum_{i<j}V_{ij} n_{r_i} n_{r_j}
-    $$
+![](images/2024-05-25-14-44-06.png){width=30%}
 
 ---
 
-## QMA complete model: 3-level model of Rydberg atoms array
+## Ask the right question
 
-$$
-\begin{aligned} 
-    H = & \sum\_i \frac{\Omega\_i\^{\mathrm{hf}}(t)}{2}\left(e^{i \phi\_i^{\mathrm{hf}}(t)}|0\_i\rangle\langle 1\_i|+e\^{-i \phi\_i\^{\mathrm{hf}}(t)}| 1\_i\rangle\langle 0_i|\right)-\sum_i \Delta_i\^{\mathrm{hf}}(t)|1_i\rangle\langle 1_i| \\\\
-    & +\sum_i \frac{\Omega\_i^{\mathrm{r}}(t)}{2}\\left\(e\^{i \\phi\_i^{\mathrm{r}}(t)}|1\_i\rangle\langle r\_i|+e^{-i \phi\_i^{\mathrm{r}}(t)}| r\_i\rangle\langle 1\_i|\right\)-\sum_i\left\[\Delta\_i\^{\mathrm{hf}}(t)+\Delta\_i^{\mathrm{r}}(t)\right\]\left\|r\_i\right\rangle\left\langle r\_i\right\| \\\\
-    & +\sum_{i<j} V_{i j}\left|r_i\right\rangle\left\langle r_i|\otimes| r_j\right\rangle\left\langle r_j\right| .
-\end{aligned}
-$$
-
----
-
-## Numeric methods
-- Exact diagonalization
-- Tensor network method
-- Monte carlo
-
----
-
-## How to communicate?
-
-- Onsite: 9:30AM-9:30PM, location TBA.
-- Online: Zulip stream (less formal): `#NumericTrainingCamp`, for general discussion, sharing.
-- Discussion room: 4th/5th floor, maker space
-
----
-
-## Basic Rules
-
-NOTE: I should go through the README.
-
-Repo: [https://code.hkust-gz.edu.cn/numericgangsters/numerictrainingcamp](https://code.hkust-gz.edu.cn/numericgangsters/numerictrainingcamp)
-
----
-
-## Preliminary
-
-You must go through the following guides before starting a topic
-
-- [Git and Pull request](https://book.jinguo-group.science/stable/chap1/git/)
-- [VSCode + Markdown + Copilot for technical writing](guides/report-writing.md)
-- [Using Google Scholar to conduct a survey](guides/conduct-survey.md)
+![](images/2024-05-25-14-08-37.png)
+![](images/2024-05-25-14-47-02.png)
 
 ---
 
 ## Goals for today
 
-- I will introduce many-body computing and the four topics.
-- Students decide the topic and the group before 2PM.
+- I will introduce many-body computational methods and the projects.
+- Students will choose a project to work on.
+- Students set up the environment.
 
 ---
 
-## Many-body computing
+## Many-body systems
+
+We start from a Hamiltonian $H$ and solve the following problems:
+
+1. Ground state
+2. Thermal equilibrium
+3. Time evolution
+
+Or without a Hamiltonian, we simulate a quantum circuit.
+
+---
+
+## Complexity classification
+
+Cubitt, T., Montanaro, A., 2016. Complexity Classification of Local Hamiltonian Problems. SIAM J. Comput. 45, 268–316. https://doi.org/10.1137/140998287
+
+---
+
+## NP-complete model
+
+Let $G = (V, E)$ be a graph. The transverse field Ising mdoel (e.g. Rydberg atoms array without Rabi pulse) is NP-complete.
+$$
+H = - \sum_{i \in V} Δ_i n_{r_i} + \sum_{(i, j) \in E}V_{ij} n_{r_i} n_{r_j}
+$$
+
+*Unlikely to have a polynomial-time algorithm.*
+
+---
+
+## Stoquastic models
+Transverse field Ising model (e.g. 2-level model of Rydberg atoms array)
+$$
+H = -J \sum_{(i, j) \in E} Z_i Z_j - h \sum_{j\in V} X_j
+$$
+
+*Absence of sign problem in quantum Monte Carlo simulations.*
+
+---
+
+## QMA complete model
+
+Heisenberg model and 3-level model of Rydberg atoms array
+
+$$
+H = \sum_{(i, j) \in E} J_{ij}\mathbf{S}_i \cdot \mathbf{S}_j
+$$
+
+Ref: [3-level model of Rydberg atoms array](https://queracomputing.github.io/Bloqade.jl/dev/3-level/)
+
+*Their low energy subspace can simulate any other quantum system.*
+
+---
+
+## Notes
+
+The complexity classification is for the hardest problem in the class.
+
+---
+
+## Exactly solvable models
 
 ![](images/fig1.svg)
 
 ---
 
-## Julia community
-
-- https://julialang.org/community/
-
-Note: I will go through several Julia Slack/Zulip channels, discourse
-
----
-
-# Video watching: with questions in mind
-
-TODO:
-- A video about tensor networks
-- A video about VMC
-
----
-
 ## Continue
 
-- Reproduce a paper
-- Work on a new idea
-
----
-
-## Grouping
-
-Before 2PM, students decide the topic and the group.
-
-- 4 groups are formed.
-- 2-4 students per group.
-
----
-
-## About Projects: Pivot the Idea!
-The provided topics may not be perfect for the following reasons:
-- Has been done before.
-- Too hard or too easy.
-- Incorrect.
-
-We need to do survey, discuss, discuss, and discuss to pivot the idea.
+- Go through the provided topics (in the [README](../README.md)).
+- Students decide which project to work on before 2PM. Students choosing the same project will form a group.
+  - Projects are mainly about how to reproduce the results of a paper.
+  - Feel free to add new projects to the pool.
+- Goal: Each group submit a link to a GitHub repository with the team name, project name and the group members' names.

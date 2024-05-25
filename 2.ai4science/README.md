@@ -7,7 +7,7 @@
 - Book: Pattern recognition and machine learning[^Bishop2006].
 - Book: The Elements of Differentiable Programming [^Blondel2024].
 
-## People
+## Researchers in the field
 
 - [Steven Johnson](https://scholar.google.com/citations?hl=zh-CN&user=_MHaph0AAAAJ) - FFTW
 - [Lei Wang](https://scholar.google.com/citations?hl=zh-CN&user=t4m9TCIAAAAJ) - computational physicscondensed matter physicsdeep learning
