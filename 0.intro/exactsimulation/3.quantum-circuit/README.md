@@ -4,6 +4,12 @@ Many quantum circuits have small entanglement, e.g. the QFT circuit[^Chen2023]. 
 
 * The contraction order finding is the key technique to simulate a quantum circuit efficiently. Finding the optimal contraction order is an NP-hard problem.
 
+## Code
+
+1. Construct the quantum circuit of the QFT algorithm.
+2. Convert the quantum circuit to a tensor network.
+3. Computing the entanglement entropy of the MPO.
+
 ## References
 
 [^Luo2020]: Luo, X.-Z., Liu, J.-G., Zhang, P., Wang, L., 2020. Yao.jl: Extensible, Efficient Framework for Quantum Algorithm Design. Quantum 4, 341. https://doi.org/10.22331/q-2020-10-11-341

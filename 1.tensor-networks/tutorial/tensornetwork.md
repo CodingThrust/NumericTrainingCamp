@@ -129,6 +129,14 @@ U(dt) = e^{-iHdt} \approx \prod_i e^{-ih_{i,i+1} dt}
 3.  VUMPS
 4.  TDVP
 
+
+### Video
+
+- [Norbert Schuch: Matrix product states and tensor networks (I)](https://youtu.be/W_IBEAzqm4U?si=MWV_qVt_JmA6HsNl)
+- [Norbert Schuch: Matrix product states and tensor networks (II)](https://youtu.be/yLpWKvk2fzY?si=J0QzYIZggQFRQ-nL)
+- [Norbert Schuch - Lower bounding ground state energies through renormalization and tensor networks](https://youtu.be/eGpDw8tVG3c?si=GVuypEvLRL2wCChD)
+- [Tutorial on Tensor Networks and Quantum Computing with Miles Stoudenmire](https://www.youtube.com/watch?v=fq3_7vBcj3g&t=538s)
+
 ### Automatic differentiation
 
 *Differentiating a tensor in a tensor network contraction is equivalent to removing the tensor.*
