@@ -133,16 +133,6 @@ U(dt) = e^{-iHdt} \approx \prod_i e^{-ih_{i,i+1} dt}
 
 ![](plots/tebd.svg)
 
-### Ground state finding
-1.  Variational optimization
-2.  DMRG algorithm
-### Infinite translation invariant system[^Vanderstraeten2018]
-1. Transfer matrix
-2. Infinite MPS
-3.  VUMPS
-4.  TDVP
-
-
 ### Video
 
 - [Norbert Schuch: Matrix product states and tensor networks (I)](https://youtu.be/W_IBEAzqm4U?si=MWV_qVt_JmA6HsNl)
@@ -186,19 +176,6 @@ We have
 Q: How about complex numbers?
 - Rule based AD: derive the rules using the Wirtinger calculus
 - Source-to-source AD: same as real numbers
-
-#### Example: 
-
-
-### Open quantum systems
-
-## Two-dimensional Tensor Networks
-1. Projected entangled pair states (PEPS)
-   1. The problem of contraction complexity
-   2. MPS^2 and Mose move
-2. Corner transfer matrix renormalization group (CTMRG)
-3. Fermionic system
-4. PEPS + VMC
 
 ## From Quantum Circuit to Tensor Networks
 1. Tensor network based simulation
