@@ -1,6 +1,6 @@
 # Tensor networks
 
-## Mathematic foundation
+## 1. Mathematic foundation
 
 ### Definition
 A tensor network is a triple $\{\Lambda, \{T^{(i)}_{\sigma_i}\}, \sigma_0\}$[^Roa2024], where
@@ -15,19 +15,19 @@ The contraction of a tensor network is defined as
 
 ### Diagrammatic representation
 We use a node to denote a tensor and a line to denote an index.
-#### Example 1: Trace Permutation
+#### Example 1.1: Trace Permutation
 Diagram:
 ![](plots/traceperm.svg)
 
 Math:
 ```math
-{\rm con}(\{i, j, k\}, \{A_{ij}, B_{jk}, C_{ik}\}, \{\})
+{\rm con}(\{i, j, k\}, \{A_{ij}, B_{jk}, C_{ki}\}, \{\})
 ```
 Julia:
 ```julia
-ein"ij,jk,ik->"(A, B, C)
+ein"ij,jk,ki->"(A, B, C)
 ```
-#### Example 2: SVD decomposition
+#### Example 1.2: SVD decomposition
 Diagram:
 ![](plots/svd.svg)
 
@@ -38,7 +38,7 @@ Math:
 
 Julia:
 ```julia
-ein"ij,j,k->ik"(U, S, V)
+ein"ij,j,jk->ik"(U, S, V)
 ```
 
 ### Contraction order
@@ -46,19 +46,33 @@ ein"ij,j,k->ik"(U, S, V)
 2. The space complexity of a contraction order is related to tree width in graph theory
 3. Algorithms to find the optimal contraction order, Please check: https://github.com/TensorBFS/OMEinsumContractionOrders.jl
 
-Example:
-<img src="2024-05-25-19-25-48.png" width="300"/>
+#### Example 1.3: Contraction order
+<img src="images/2024-05-25-19-25-48.png" width="300"/>
 
-Q1: What are the mathematical expression and Julia code for the above diagram?
+Q1: What is the Julia code for the above diagram?
+$$
+\begin{align}
+  \begin{split}
+    &{\rm con}(\{i,j,k,l,m,n\}, \\
+    & \quad\quad\{A_{\{i, l\}}, B_{\{l\}}, C_{\{k, j, l\}}, D_{\{k, m, n\}}, E_{\{j, n\}}\},\\
+    & \quad\quad\{i,m\}) \\
+    & =\sum_{j,k,l,n}A_{\{i,l\}} B_{\{l\}} C_{\{k,l\}} D_{\{k, m\}} E_{\{j, n\}}.
+  \end{split}
+\end{align}
+$$
+
 Q2: Given the contraction tree below, what is the corresponding time complexity, space complexity and read-write complexity?
 
-<img src="2024-05-25-19-26-18.png" width="350"/>
+<img src="images/2024-05-25-19-26-18.png" width="350"/>
+
+*Slicing technique* can be used to reduce the space complexity of the contraction order.
 
 #### Example 3: Fast Fourier Transform (FFT)
 - https://book.jinguo-group.science/stable/chap3/fft/
 - https://zhuanlan.zhihu.com/p/696638919
 
-## Matrix Product States (MPS)
+
+## 2. Matrix Product States (MPS)
 
 A matrix product state is a tensor network representation of a quantum state.
 
