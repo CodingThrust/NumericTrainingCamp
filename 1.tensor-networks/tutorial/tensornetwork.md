@@ -41,10 +41,6 @@ Julia:
 ein"ij,j,k->ik"(U, S, V)
 ```
 
-#### Example 3: Fast Fourier Transform (FFT)
-- https://book.jinguo-group.science/stable/chap3/fft/
-- https://zhuanlan.zhihu.com/p/696638919
-
 ### Contraction order
 1. A good contraction order reduces: space complexity, time complexity and read-write complexity
 2. The space complexity of a contraction order is related to tree width in graph theory
@@ -57,6 +53,10 @@ Q1: What are the mathematical expression and Julia code for the above diagram?
 Q2: Given the contraction tree below, what is the corresponding time complexity, space complexity and read-write complexity?
 
 <img src="2024-05-25-19-26-18.png" width="350"/>
+
+#### Example 3: Fast Fourier Transform (FFT)
+- https://book.jinguo-group.science/stable/chap3/fft/
+- https://zhuanlan.zhihu.com/p/696638919
 
 ## Matrix Product States (MPS)
 
@@ -71,13 +71,13 @@ Q: Let the virtual bond dimension be $D$, what is the space complexity of the MP
 2. Example: GHZ state
 3. Example: AKLT state (Ref. [^Schollwock2010] P31)
 
-### Entanglement
+### Entanglement entropy and the area law
 1. Every multipartite quantum state has a Schmidt decomposition
 ```math
 \ket{\psi} = \sum_{i} \lambda_i \ket{i}_A \ket{i}_B,\\
 \sum_{i} \lambda_i^2 = 1, \lambda_i \geq 0.
 ```
-2. Schmidt decomposition can be related to singular value decomposition (SVD)
+2. Schmidt decomposition can be related to singular value decomposition (SVD).
 3. The entanglement entropy is defined as
 ```math
 S = -\sum_i \lambda_i^2 \log_2 \lambda_i^2.
@@ -89,9 +89,8 @@ S = -\sum_i \lambda_i^2 \log_2 \lambda_i^2.
 5. The eigenvalues of the reduced density matrix are the squares of the Schmidt coefficients.
 
 
-### Entanglement entropy and the area law
 1.  Schmidt decomposition
-2. Systems with area law, exponentially decaying entanglement entropy
+2. Systems with area law
 3. Compression: How does truncation error relate to the expectation value?
 ### Fidelity & expectation value
 1. Norm of the state
