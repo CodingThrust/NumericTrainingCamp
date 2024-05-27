@@ -4,6 +4,7 @@ Reproduce the paper by Nobert Schuch et al. [^Kull24] on Renormalization Group R
 
 ## Members
 - Yusheng Zhao
+- Qingyun Qian
 
 ## Link to GitHub repository
 
