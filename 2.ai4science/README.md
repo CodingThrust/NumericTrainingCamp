@@ -3,7 +3,7 @@
 ## Contents
 - [Computational Graph](([Python](https://github.com/GiggleLiu/marburg))) and optimal checkpointing ([Julia](https://github.com/GiggleLiu/TreeverseAlgorithm.jl/tree/master/test))
 - Generative modeling
-- Random-batch meothods for interacting particle systems
+- Random-batch meothods for interacting particle systems ([Julia](https://github.com/HPMolSim))
 
 ## Reading
 - Book: Pattern recognition and machine learning[^Bishop2006].
@@ -14,8 +14,8 @@
 
 - [Steven Johnson](https://scholar.google.com/citations?hl=zh-CN&user=_MHaph0AAAAJ) - FFTW
 - [Lei Wang](https://scholar.google.com/citations?hl=zh-CN&user=t4m9TCIAAAAJ) - computational physicscondensed matter physicsdeep learning
-- [Weinan E] (https://scholar.google.com/citations?user=i2mOt14AAAAJ&hl=en&oi=ao) - machine learning theory; AI for science
-- [Bin Dong] (https://scholar.google.com/citations?user=zLXcC90AAAAJ&hl=en) - AI for Science; AI for math
+- [Weinan E](https://scholar.google.com/citations?user=i2mOt14AAAAJ&hl=en&oi=ao) - machine learning theory; AI for science
+- [Bin Dong](https://scholar.google.com/citations?user=zLXcC90AAAAJ&hl=en) - AI for Science; AI for math
 
 ## Projects
 - Reproduce: Ab-initio study of interacting fermions at finite temperature with neural canonical transformation[^Xie2022].
