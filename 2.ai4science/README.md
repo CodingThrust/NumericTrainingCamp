@@ -16,7 +16,7 @@
 ## Projects
 - Reproduce: Ab-initio study of interacting fermions at finite temperature with neural canonical transformation[^Xie2022].
 - Reproduce: Random batch Ewald method for Coulomb interactions[^Jin2021].
-- Reproduce: Random-batch list algorithm for short-range molecular dynamics simulations; and its extension to the spring-bead model for polymer chains
+- Reproduce: Random-batch list algorithm for short-range molecular dynamics simulations[^Liang2021]; and its extension to the spring-bead model for polymer chains.
 - Optimal checkpointing for non-uniform program (e.g. tensor network contraction)[^Griewank1992].
 
 ## References
