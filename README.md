@@ -30,7 +30,7 @@ Note: each participant (including instructors) has 48 hour leave. Quitting is on
 3. Qi Zhang, May 30, 9:30AM, Flow model for computational physics[^ml4p]
 
 **Talks**
-1. Yi-Jia Wang, Tensor network message passing[^Wang2024]
+1. Yi-Jia Wang, June 3, 11AM, online, Tensor network message passing[^Wang2024]
 3. Ji-Yao Chen, June 5, 11AM, W4-202, Tensor networks, from ground states to excitations and back
 2. Xiu-Hao Deng, Juan 6, 2PM, Quantum random walk (planned)
 4. Zhao-Long Gu, June 8, 11AM, Correlation Effects and Their Interplay with Magnetic Fields and Band Topology in Twisted Transition Metal Dichalcogenides
