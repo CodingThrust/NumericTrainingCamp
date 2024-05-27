@@ -26,7 +26,7 @@ Note: each participant (including instructors) has 48 hour leave. Quitting is on
 ## Events
 **Mini-lectures**
 1. Jin-Guo Liu, [Tensor network methods](./1.tensor-networks/tutorial/tensornetwork.md), May 27, 9:30AM
-2. Ze-Cheng Gan, PDE/ODE, May 29, 9:30AM (planned)
+2. Ze-Cheng Gan, Differential equation models, algorithms and applications in Molecular Dynamics, May 29, 9:30AM
 3. Qi Zhang, May 30, 9:30AM, Flow model for computational physics[^ml4p]
 
 **Talks**
