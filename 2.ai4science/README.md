@@ -21,6 +21,7 @@
 - Reproduce: Ab-initio study of interacting fermions at finite temperature with neural canonical transformation[^Xie2022].
 - Reproduce: Random batch Ewald method for Coulomb interactions[^Jin2021].
 - Reproduce: Random-batch list algorithm for short-range molecular dynamics simulations[^Liang2021]; and if time permits, its extension to the spring-bead model for polymer chains[^Kremer1990].
+- Reproduce: Replica Monte Carlo Simulation of Spin-Glasses[^Swendsen1986].
 - Optimal checkpointing for non-uniform program (e.g. tensor network contraction)[^Griewank1992].
 
 ## References
@@ -32,3 +33,4 @@
 [^Frenkel2023]: Frenkel, D. and Smit, B., 2023. Understanding molecular simulation: from algorithms to applications. Elsevier.
 [^Xie2022]: Xie, H., Zhang, L., Wang, L., 2022. Ab-initio study of interacting fermions at finite temperature with neural canonical transformation. JML 1, 38–59. https://doi.org/10.4208/jml.220113
 [^Jin2021]: S. Jin, L. Li, Z. Xu, and Y. Zhao, A random batch Ewald method for particle systems with Coulomb interactions, SIAM J. Sci. Comput., 43 (2021), pp. B937–B960.
+[^Swendsen1986]: Swendsen, R.H. and Wang, J.S., 1986. Replica Monte Carlo simulation of spin-glasses. Physical review letters, 57(21), p.2607. https://doi.org/10.1103/PhysRevLett.57.2607
