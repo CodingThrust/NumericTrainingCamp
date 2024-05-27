@@ -49,6 +49,14 @@ Repo: [https://github.com/CodingThrust/NumericTrainingCamp](https://github.com/C
 
 ---
 
+## Who can help you?
+
+- **Programming**: Yi-Dai ZHANG, Yu-Sheng ZHAO and Xuan-Zhao GAO
+- **Theory**: Qing-Yun QIAN and Zhong-Yi NI
+- General: Jin-Guo LIU
+
+---
+
 ## Goals for today
 
 - I will introduce many-body computational methods and the projects.
@@ -65,7 +73,8 @@ We start from a Hamiltonian $H$ and solve the following problems:
 2. Thermal equilibrium
 3. Time evolution
 
-Or without a Hamiltonian, we simulate a quantum circuit.
+Or without a Hamiltonian:
+1. simulate a quantum circuit.
 
 ---
 
@@ -180,4 +189,6 @@ The ground state is representable by a Clifford circuit.
 - Students decide which project to work on before 2PM. Students choosing the same project will form a group.
   - Projects are mainly about how to reproduce the results of a paper.
   - Feel free to add new projects to the pool.
-- Goal: Each group submit a link to a GitHub repository with the team name, project name and the group members' names.
+- Goal:
+  - Each group submit a [project registry](../projects/README.md).
+  - Get familiar with the workflow.
