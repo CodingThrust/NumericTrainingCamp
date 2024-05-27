@@ -16,12 +16,13 @@
 ## Projects
 - Reproduce: Ab-initio study of interacting fermions at finite temperature with neural canonical transformation[^Xie2022].
 - Reproduce: Random batch Ewald method for Coulomb interactions[^Jin2021].
-- Reproduce: Random-batch list algorithm for short-range molecular dynamics simulations[^Liang2021]; and its extension to the spring-bead model for polymer chains.
+- Reproduce: Random-batch list algorithm for short-range molecular dynamics simulations[^Liang2021]; and if time permits, its extension to the spring-bead model for polymer chains[^Kremer1990].
 - Optimal checkpointing for non-uniform program (e.g. tensor network contraction)[^Griewank1992].
 
 ## References
 [^Griewank1992]: Griewank, A., 1992. Achieving logarithmic growth of temporal and spatial complexity in reverse automatic differentiation. Optimization Methods and Software 1, 35–54. https://doi.org/10.1080/10556789208805505
 [^Liang2021]: Liang, J., Xu, Z. and Zhao, Y., 2021. Random-batch list algorithm for short-range molecular dynamics simulations. The Journal of Chemical Physics, 155(4). https://doi.org/10.1063/5.0056515
+[^Kremer1990]: Kremer, K. and Grest, G.S., 1990. Dynamics of entangled linear polymer melts: A molecular‐dynamics simulation. The Journal of Chemical Physics, 92(8), pp.5057-5086. https://doi.org/10.1063/1.458541
 [^Blondel2024]: Blondel, M., Roulet, V., 2024. The Elements of Differentiable Programming. https://doi.org/10.48550/arXiv.2403.14606
 [^Bishop2006]: Bishop, Christopher M., 2006. Pattern recognition and machine learning.
 [^Xie2022]: Xie, H., Zhang, L., Wang, L., 2022. Ab-initio study of interacting fermions at finite temperature with neural canonical transformation. JML 1, 38–59. https://doi.org/10.4208/jml.220113
