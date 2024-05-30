@@ -7,7 +7,14 @@ Reproduce the Hyper-Greedy algorithm for tensor network contraction order optimi
 
 ## Link to Github repository
 
-https://github.com/ArrogantGao/OMEinsumContractionOrders.jl
+### Code
+
+https://github.com/TensorBFS/OMEinsumContractionOrders.jl
+https://github.com/ArrogantGao/TamakiTreeWidth.jl
+
+### Notes
+https://github.com/ArrogantGao
+
 
 ## References
 
