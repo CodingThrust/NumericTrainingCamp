@@ -27,5 +27,5 @@
 [^Wang2013]: Wang, L., Rønnow, T.F., Boixo, S., Isakov, S.V., Wang, Z., Wecker, D., Lidar, D.A., Martinis, J.M., Troyer, M., 2013. Comment on: “Classical signature of quantum annealing.” https://doi.org/10.48550/arXiv.1305.5837
 [^Carleo2017]: Carleo, G., Troyer, M., 2017. Solving the quantum many-body problem with artificial neural networks. Science 355, 602–606. https://doi.org/10.1126/science.aag2302
 [^Boixo2014]: Boixo, S., Rønnow, T.F., Isakov, S.V., Wang, Z., Wecker, D., Lidar, D.A., Martinis, J.M., Troyer, M., 2014. Evidence for quantum annealing with more than one hundred qubits. Nature Phys 10, 218–224. https://doi.org/10.1038/nphys2900
-[^Ruger2013]: Rüger, R., Goethe-universität, J.W., 2013. Implementation of the Variational Monte Carlo method for the Hubbard model.
+[^Ruger2013]: Rüger, R., Goethe-universität, J.W., 2013. Implementation of the Variational Monte Carlo method for the Hubbard model. http://work.robertrueger.de/docs/mscthesis.pdf
 [^Gubernatis2016]: James, Naoki Kawashima, and Philipp Werner., 2016, Quantum Monte Carlo Methods. Cambridge University Press
