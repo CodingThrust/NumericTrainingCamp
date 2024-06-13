@@ -32,7 +32,7 @@ Note: each participant (including instructors) has 48 hour leave. Quitting is on
 **Talks**
 1. Yi-Jia Wang, June 3, 11AM, online, Tensor network message passing[^Wang2024]
 3. Ji-Yao Chen, June 5, 11AM, W4-202, Tensor networks, from ground states to excitations and back
-2. Xiu-Hao Deng, Juan 6, 2PM, Quantum random walk (planned)
+2. Xiu-Hao Deng, Juan 6, 2PM, Quantum random walk
 4. Zhao-Long Gu, June 8, 11AM, Correlation Effects and Their Interplay with Magnetic Fields and Band Topology in Twisted Transition Metal Dichalcogenides
 
 ## Guide
@@ -56,7 +56,7 @@ The report in the Markdown format should be submitted to this repository, under 
 
 - Spaces that free to use: W1 4F-6F, maker space.
 - We use [Zulip@HKUST-GZ](http://zulip.hkust-gz.edu.cn/) stream: `#NumericTrainingCamp` for (formal) online communication.
-- We will have a WeChat group for informal communication (planned).
+- We will have a WeChat group for informal communication.
 
 #### Technical support
 - Yusheng ZHAO

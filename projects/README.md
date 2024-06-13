@@ -90,3 +90,12 @@ Reproduce the paper[^Jin2021].
 - Shiyi BAI
 
 **GitHub repository**: https://github.com/shiyibai5315/RBE.jl
+
+## Isometric Tensor Network States in Two Dimensions
+Reproduce Isometric Tensor Network States in Two Dimensions.
+
+**Members**
+- Qingyuan Wang
+- Longli Zheng
+
+**Github repository**: (https://github.com/qingwqy/IsoTNS.jl)
