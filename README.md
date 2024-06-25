@@ -62,6 +62,17 @@ The report in the Markdown format should be submitted to this repository, under 
 - Yusheng ZHAO
 - Yidai ZHANG
 
+## Final resports
+
+- Yi-Dai Zhang, Huan-Hai Zhou
+https://github.com/YidaiZhang/TensorNetworkAD2.jl
+
+- Zhong-Yi Ni
+https://github.com/nzy1997/TensorQEC.jl
+
+- Xuan-Zhao Gao
+https://github.com/ArrogantGao/Notes-Gsoc2024
+
 ## References
 [^Wang2024]: Wang, Y., Zhang, Y.E., Pan, F., Zhang, P., 2024. Tensor Network Message Passing. Phys. Rev. Lett. 132, 117401. https://doi.org/10.1103/PhysRevLett.132.117401
 [^ml4p]: Machine learning for physicists, https://github.com/wangleiphy/ml4p
