@@ -73,6 +73,18 @@ https://github.com/nzy1997/TensorQEC.jl
 - Xuan-Zhao Gao
 https://github.com/ArrogantGao/Notes-Gsoc2024
 
+- Hao-Jie Zhang
+https://github.com/lovemy569/CMPO-For-Finite-Temperature
+
+- Long-Li Zheng, Qing-Yuan Wang
+https://github.com/Br0kenSmi1e/isoTNS.jl
+
+- Yu-Sheng Zhao, Qing-Yun Qian
+https://github.com/exAClior/RGRDMT.jl
+
+- Xing-Yu Ren
+https://github.com/Phy-Ren/Variational-Monte-Carlo
+
 ## References
 [^Wang2024]: Wang, Y., Zhang, Y.E., Pan, F., Zhang, P., 2024. Tensor Network Message Passing. Phys. Rev. Lett. 132, 117401. https://doi.org/10.1103/PhysRevLett.132.117401
 [^ml4p]: Machine learning for physicists, https://github.com/wangleiphy/ml4p
