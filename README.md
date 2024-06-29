@@ -74,7 +74,7 @@ https://github.com/nzy1997/TensorQEC.jl
 https://github.com/ArrogantGao/Notes-Gsoc2024
 
 - Hao-Jie Zhang
-https://github.com/lovemy569/CMPO-For-Finite-Temperature
+[https://github.com/lovemy569/CMPO-For-Finite-Temperature](https://github.com/lovemy569/cMPO.jl)
 
 - Long-Li Zheng, Qing-Yuan Wang
 https://github.com/Br0kenSmi1e/isoTNS.jl
