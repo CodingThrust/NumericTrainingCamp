@@ -41,7 +41,7 @@ You can use [Google Scholar](https://scholar.google.com/) to search for the rese
 #### Technical writing
 The report in the Markdown format should be submitted to this repository, under the folder of the corresponding topic. Please check preview events (e.g. [this one](https://code.hkust-gz.edu.cn/jinguoliu/rydbergtrainingmaterials/-/tree/main/2.error-correction/reports?ref_type=heads)) for references.
 
-- [Guide: How to use AI to facilitate technical writing](0.intro/toolkit.md)
+- [Guide: How to use AI to facilitate technical writing](0.intro/guides/report-writing.md)
 
 #### How to program?
 
